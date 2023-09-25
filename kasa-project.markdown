@@ -17,6 +17,6 @@ description: Refonte totale du site. J'ai été recruté en tant que développeu
 project-url: https://github.com/RoxanneLottier/Kasa
 ---
 
-![Kasa homepage portfolio](/assets/images/Kasa/portfolio-kasa.png)
-![Kasa collapse element portfolio](/assets/images/Kasa/portfolio-kasa-2.png)
-![Kasa image carrousel element portfolio](/assets/images/Kasa/portfolio-kasa-3.png)
+![Kasa homepage portfolio](/assets/images/Kasa/portfolio-kasa.webp)
+![Kasa collapse element portfolio](/assets/images/Kasa/portfolio-kasa-2.webp)
+![Kasa image carrousel element portfolio](/assets/images/Kasa/portfolio-kasa-3.webp)

@@ -91,11 +91,11 @@
     </div>
 </section>
 <section class="project-images-wrapper">
-    <p><img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel.png" alt="Sophie Buel homepage portfolio" />
-<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-1.png" alt="Sophie Buel admin page portfolio" />
-<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-2.png" alt="Sophie Buel login page portfolio" />
-<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-3.png" alt="Sophie Buel modal page portfolio" />
-<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-4.png" alt="Sophie Buel modal add works pages portfolio" /></p>
+    <p><img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel.webp" alt="Sophie Buel homepage portfolio" />
+<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-1.webp" alt="Sophie Buel admin page portfolio" />
+<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-2.webp" alt="Sophie Buel login page portfolio" />
+<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-3.webp" alt="Sophie Buel modal page portfolio" />
+<img src="/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-4.webp" alt="Sophie Buel modal add works pages portfolio" /></p>
 
 </section>
       </div>
@@ -105,29 +105,29 @@
     <div class="wrapper">
         <section class="form-section">
             <div class="form-section-image">
-                <img src="../assets/images/Rene R logo black-XL.webp" alt="Rene R logo in black"/>
+                <img decoding="async" loading="lazy" src="../assets/images/Rene R logo black-XL.webp" alt="Rene R logo in black"/>
             </div>
             <div class="form">
                 <h2>PRET À AUGMENTER VOTRE CHIFFRE D'AFFAIRES TOUT EN SAUVANT LA PLANÈTE ?</h2>
                 <h3>CONTACTEZ-MOI</h3>
-                <form action="#" method="post">
+                <form action="contact.php" method="post">
                     <div class="name">
                         <label for="fname"></label>
-                        <input type="text" id="fname" name="fname" placeholder="Prénom">
+                        <input type="text" id="fname" name="fname" placeholder="Prénom" required>
 
                         <label for="lname"></label>
-                        <input type="text" id="lname" name="lname" placeholder="Nom">
+                        <input type="text" id="lname" name="lname" placeholder="Nom" required>
                     </div>
 
                     <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br>
 
                     <label for="business"></label>
-                    <input type="text" id="business" name="business" placeholder="Nom de l'entreprise"><br>
+                    <input type="text" id="business" name="business" placeholder="Nom de l'entreprise" required><br>
 
 
                     <label for="category" style="padding: 12px;">Service souhaité :</label>
-                    <select id="category" name="category">
+                    <select id="category" name="category" required>
                         <option value="option1">Site vitrine</option>
                         <option value="option2">Site e-commerce</option>
                         <option value="option3">Site-web / application</option>
@@ -136,7 +136,7 @@
                     </select><br>
 
                     <label for="message"></label>
-                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Message" required></textarea><br>
                     <input type="submit" value="Submit">
                 </form>
             </div>
@@ -148,4 +148,5 @@
   </footer></body>
   <script src="/assets/javascript/services.js"></script>
   <script src="/assets/javascript/filter.js"></script>
+  <?php include 'contact.php'; ?>
 </html>

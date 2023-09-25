@@ -12,24 +12,159 @@
 
 body {
     max-width: 1400px !important;
+    min-width: 390px;
     margin: auto;
 }
 
 // TYPOGRAPHY
 
-h2 {
+h1, h2, h3, h4, .animated-titles-list span, .animated-titles-list2 span, .button1,
+.animated-text, .animated-text2, .saviez-vous-text span, .label, .portfolio, .service-description span,
+.copyright, .hover-card-title, .presentation {
     font-family: 'Audrey', Tahoma, sans-serif;
-    font-size: 50px;
-    margin: auto;
-    line-height: 50px;
 }
 
-h3 {
-    font-family: 'Audrey', Tahoma, sans-serif;
+.portfolio h2, #portfolio-page h1 {
+    font-size: 180px;
+}
+
+.letter {
+    font-size: 60px;
+}
+
+h1, h2, .presentation-header h1 {
+    font-size: 50px;
+}
+
+.label {
+    font-size: 40px;
+}
+
+.animated-titles-list span, .animated-titles-list2 span {
+    font-size: 36px;
+}
+
+.ecology h2, .presentation-description h2, .services-title h3, .service-description h3, .form h3,
+.saviez-vous-text span, .number {
+    font-size: 24px;
+}
+
+.animated-text, .animated-text2, .hover-card-title {
+    font-size: 18px;
+}
+
+.input[value="Submit"], input[value="Submit"]:hover {
+    font-size: 16px;
+}
+
+.service-description span, h4, .button1, .includes-list li, .service-description p,
+.table-column p, .a-propos-content p {
+    font-size: 14px;
+}
+
+.anotation {
+    font-size: 12px;
+}
+
+.portfolio h2, #portfolio-page h1, .img-text-container p {
+    font-weight: normal;
+}
+
+.form h3 {
+    font-weight: 100;
+}
+
+.anotation, .service-description p, .table-column p, .a-propos-content p {
+    font-weight: 300;
+}
+
+.service-description span, h4, .inquire-button, .inquire-button2, .label, .hover-card-title, .presentation-header h1,
+.saviez-vous-text, .table-column span {
+    font-weight: bold;
+}
+
+.button1, .number, .letter {
+    font-weight: bolder;
+}
+
+// COLOR
+
+.button1, .button1:visited, .hover-card-title, input[value="Submit"]:hover {
+    color: black;
+}
+
+input[value="Submit"] {
+    color: white;
+}
+
+.impact-numerique > h2, .service-description h3, .service-description span, h4, .saviez-vous-text span {
+    color: #B76154;
+}
+
+.inquire-button:hover, .inquire-button2:hover, .site-nav .page-link, .saviez-vous-container, .active {
+    color: #F9F1E8;
+}
+
+input[value="Submit"] {
+    background-color: black;
+}
+
+input[value="Submit"]:hover {
+    background-color: white;
+}
+
+.site-nav, .table, .copyright {
+    background-color: #D5B8A7;
+}
+
+.form-section, .list1 span, .list2 span {
+    background-color: #D3D9CE;
+}
+
+.inquire-button, .animated-text-slider, .hover-card, .project-images-wrapper {
+    background-color: #F9F1E8;
+}
+
+.impact-numerique{
+    background-color: #ECE6DD;
+}
+
+.inquire-button2, .button1 {
+    background-color: transparent;
+}
+
+.inquire-button:hover, .inquire-button2:hover, .background-animation, .saviez-vous-container, .active {
+    background-color: #B76154;
+}
+
+// FLEX
+
+.site-nav, .trigger, .inquire-button, .inquire-button2, .animated-titles-list, .under-header-buttons, .animated-text-slider,
+.img-text-container, .number-container, .services-container li, .services-container > ul,
+#site-vitrine, #site-ecommerce, #site-web-application, #identite-visuelle, .services-container li .services-title,
+.renaitre-container, .form-section, .name, .voir-plus, .filter-bar ul, .presentation, .list1,
+.list1 ul, .project-images-wrapper, .a-propos-container, .services-title h3  {
+    display: flex;
+}
+
+.header-block, .saviez-vous-text, .under-header-info, .number-column, .table-column {
+    display: flex;
+    flex-direction: column;
+}
+
+// LAYOUT
+
+h1, h2, .presentation-header h1 .service-description, .form-section-image, .portfolio-works img, .project-images-wrapper img, .a-propos-content {
+    margin: auto;
+}
+
+// CURSOR
+
+.inquire-button:hover, .inquire-button2:hover, .background-animation:hover, .services-container li .services-title, .hover-card, .filter-bar ul li {
+    cursor: pointer;
 }
 
 .impact-numerique > h2 {
-    color: #B76154;
     margin: 30px auto;
     width: 750px;
     text-align: center;
@@ -39,28 +174,21 @@ h3 {
     margin: 10px;
 }
 
-.ecology h2 {
-    font-size: 24px;
-}
-
 .renaitre-content > h2 {
     margin-bottom: 50px;
 }
 
-.portfolio h2 {
+.portfolio h2, #portfolio-page h1 {
     background: linear-gradient(270deg, #B76154, #D5B8A7);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: normal;
-    font-weight: normal;
     margin-top: 50px;
     margin-bottom: -100px;
-    font-size: 180px;
 }
 
 .presentation-description h2 {
-    font-size: 24px;
     margin: 0 0 20px 0;
 }
 
@@ -68,41 +196,14 @@ h3 {
     writing-mode: vertical-rl;
     margin: 0;
     transform: rotate(180deg);
-    font-size: 24px;
     width: 60px;
     align-items: center;
     justify-content: center;
 }
 
-.service-description h3 {
-    font-size: 24px;
-    color: #B76154;
-}
-
 .form h3 {
     margin: 20px;
-    font-size: 24px;
-    font-weight: 100;
 }
-
-.service-description span, h4 {
-    font-family: 'Audrey';
-    color: #B76154;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-// FLEX
-
-.header-block, .site-nav, .trigger, .inquire-button, .inquire-button2, .animated-titles-list,
-.under-header-info, .under-header-buttons, .animated-text-slider, .saviez-vous-text, .img-text-container,
-.number-container, .number-column, .services-container li, .services-container > ul,
-#site-vitrine, #site-ecommerce, #site-web-application, #identite-visuelle, .services-container li .services-title,
-.renaitre-container, .table-column, .form-section, .name, .voir-plus, .filter-bar ul, .presentation, .list1,
-.list1 ul, .project-images-wrapper, .a-propos-container, .services-title h3  {
-    display: flex;
-}
-
 
 a:hover {
     text-decoration: none;
@@ -127,7 +228,6 @@ ul, a, figure {
 }
 
 .header-block {
-    flex-direction: column;
     align-items: center;
     width: 754px;
     margin: auto
@@ -138,7 +238,6 @@ ul, a, figure {
 }
 
 .site-nav {
-    background-color: #D5B8A7;
     border-radius: 50px;
     width: 100%;
     justify-content: flex-end;
@@ -159,10 +258,8 @@ ul, a, figure {
     border-radius: 50px;
     margin: 13px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: #F9F1E8;
     border-color: #F9F1E8;
     border-style: none;
-    font-weight: bold;
 }
 
 .inquire-button2 {
@@ -171,18 +268,6 @@ ul, a, figure {
     border-radius: 50px;
     margin: 40px 0px;
     border: 1px solid;
-    font-weight: bold;
-    background-color: transparent;
-}
-
-.inquire-button:hover, .inquire-button2:hover {
-    cursor: pointer;
-    background-color: #B76154;
-    color: #F9F1E8;
-}
-
-.site-nav .page-link {
-    color: #F9F1E8;
 }
 
 .flower1 {
@@ -215,8 +300,6 @@ li {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Audrey', Tahoma, sans-serif;
-    font-size: 36px;
     // margin-top: 20px;
     overflow: hidden;
 	position: absolute;
@@ -243,7 +326,6 @@ li {
 }
 
 .under-header-info {
-    flex-direction: column;
     align-items: center;
     margin-top: 70px;
     position: relative;
@@ -251,7 +333,6 @@ li {
 
 .background-animation {
     height: 10%;
-    background-color: #B76154;
     position:absolute;
     bottom: 0;
     right: 0;
@@ -262,7 +343,6 @@ li {
 .background-animation:hover {
     transition: height ease 0.5s;
     height: 100%;
-    cursor: pointer;
 }
 
 .page-content {
@@ -270,23 +350,13 @@ li {
 }
 
 .button1 {
-    font-family: 'Audrey', Tahoma, sans-serif;
     border: none;
-    background-color: transparent;
-    font-weight: bolder;
-    color: black;
     z-index: 1;
     position: relative;
-    font-weight: 100;
-    font-size: 14px;
 }
 
 .button1:hover {
     text-decoration: none;
-}
-
-.button1:visited {
-    color: black;
 }
 
 .under-header-buttons {
@@ -308,15 +378,12 @@ li {
     width: 100vw;
     height: 40px;
     align-items: center;
-    background-color: #F9F1E8;
     margin: 0;
     overflow: hidden;
 }
 
 .animated-text, .animated-text2 {
     white-space: nowrap;
-    font-size: 18px;
-    font-family: 'Audrey', Tahoma, sans-serif;
 }
 
 .animated-text {
@@ -328,36 +395,27 @@ li {
 }
 
 .saviez-vous-container {
-    background-color: #B76154;
-    color:#F9F1E8;
     margin: 120px 0px 30px;
 }
 
 .saviez-vous-text {
-    flex-direction: column;
     align-items: center;
     padding: 30px 340px;
-    font-weight: 700;
     position: relative;
     z-index: 2;
 }
 
 .saviez-vous-text span {
-    font-family: 'Audrey', Tahoma, sans-serif;
-    font-size: 24px;
-    color: #B76154;
     margin-bottom: 70px;
 }
 
 .anotation {
-    font-size: 12px;
-    font-weight: 300;
     padding-left: 20px;
 }
 
 .paint-brush {
     position: absolute;
-    top: 120px;
+    top: 143px;
     z-index: -1;
     height: 110px;
     width: 490px;
@@ -371,9 +429,6 @@ li {
     gap: 20px;
     margin: 0px 20px 20px;
 }
-.img-text-container p {
-    font-weight: normal;
-}
 
 .icon-img {
     max-width: 50px;
@@ -386,29 +441,12 @@ li {
 }
 
 .number-column {
-    flex-direction: column;
     align-items: center;
     gap: 10px;
     position: relative;
 }
 .number-column img {
     width: 40px;
-}
-
-.number {
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.letter {
-    font-size: 60px;
-    font-weight: 900;
-}
-
-.label {
-    font-family: 'Audrey', Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
 }
 
 .paint-brush-aqua {
@@ -420,7 +458,9 @@ li {
 .services-container {
     border: 1px solid black;
     border-right: none;
-    height: 600px
+    height: 600px;
+    width: fit-content;
+    margin: auto;
 }
 
 .services-container > ul {
@@ -439,19 +479,20 @@ li {
 
 .services-container li .services-title {
     border-right: 1px solid black;
-    cursor: pointer;
+}
+
+.services-content {
+    justify-content: space-between;
 }
 
 .service-description {
     max-width: 400px;
-    margin: auto;
     width: 35%;
+    padding: 20px;
 }
 
 .service-description p {
     margin-top: 20px;
-    font-weight: 300;
-    font-size: 14px;
 }
 
 .service-img {
@@ -471,7 +512,6 @@ li {
 
 .includes-list li {
     line-height: 50px;
-    font-size: 14px;
     min-height: 0vh !important;
 }
 
@@ -530,7 +570,6 @@ li {
 }
 
 .impact-numerique{
-    background-color: #ECE6DD;
     padding: 20px;
 }
 
@@ -538,12 +577,10 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 80px;
-    background-color: #D5B8A7;
 }
 
 .table-column {
     border: 10px solid #ECE6DD;
-    flex-direction: column;
     padding: 10px;
     height: 150px;
     justify-content: space-between;
@@ -553,28 +590,16 @@ li {
     width: 40px;
 }
 
-.table-column span {
-    font-weight: 700;
-}
-
-.table-column p {
-    font-size: 14px;
-    font-weight: 400;
-}
-
 .portfolio {
     margin: 150px auto 20px auto;
     text-align: center;
-    font-family: "Audrey", Tahoma, sans-serif;
 }
 
 .form-section {
-    background-color: #D3D9CE;
     padding: 30px;
 }
 .form-section-image {
     width: 50%;
-    margin: auto;
 }
 .form-section img {
     width: 570px;
@@ -617,16 +642,10 @@ form textarea {
 
 input[value="Submit"] {
     width: 95%;
-    background-color: black;
-    color: white;
-    font-size: 16px;
 }
 
 input[value="Submit"]:hover {
     width: 95%;
-    background-color: white;
-    color: black;
-    font-size: 16px;
 }
 
 .site-footer {
@@ -634,8 +653,6 @@ input[value="Submit"]:hover {
 }
 
 .copyright {
-    background-color: #D5B8A7;
-    font-family: "Audrey", Tahoma, sans-serif;
     text-align: center;
     padding: 10px;
 }
@@ -656,13 +673,11 @@ input[value="Submit"]:hover {
     object-position: top;
     height: 500px;
     width: 500px;
-    margin: auto;
     border-radius: 50px;
     border: 1px solid black;
 }
 
 .hover-card {
-    background-color: #F9F1E8;
     opacity: 0;
     position:absolute;
     top: 0;
@@ -670,7 +685,6 @@ input[value="Submit"]:hover {
     left: 0;
     bottom: 0;
     border-radius: 50px;
-    cursor: pointer;
     width: 100%;
     border: 1px solid black;
 }
@@ -681,11 +695,7 @@ input[value="Submit"]:hover {
 }
 
 .hover-card-title {
-    font-family: "Audrey", Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
     padding: 100px 60px;
-    color: black;
 }
 
 .voir-plus {
@@ -720,20 +730,16 @@ input[value="Submit"]:hover {
 .filter-bar ul li {
     display: block;
     padding: 4px 12px;
-    cursor: pointer;
     line-height: 1.33;
     font-size: 1.125rem;
 }
 
 .active {
-    color:#ECE6DD;
-    background-color: #B76154;
     border-radius: 50px;
 }
 
 .presentation {
     padding: 60px 0px;
-    font-family: "Audrey", Tahoma, sans-serif;
 }
 
 .presentation-header{
@@ -744,11 +750,6 @@ input[value="Submit"]:hover {
     width: 30%;
 }
 
-.presentation-header h1 {
-    font-weight: bold;
-    font-size: 50px;
-}
-
 .list1 {
     align-items: center;
     padding: 30px 0px;
@@ -756,7 +757,6 @@ input[value="Submit"]:hover {
 
 .list1 span, .list2 span {
     margin-right: 10px;
-    background-color: #D3D9CE;
     padding: 10px;
     border-radius: 50px;
 }
@@ -786,14 +786,12 @@ input[value="Submit"]:hover {
 }
 
 .project-images-wrapper {
-    background-color: #F9F1E8;
     padding: 100px;
     justify-content: center;
 }
 
 .project-images-wrapper img {
     width: 500px;
-    margin: auto;
 }
 
 .project-images-wrapper p {
@@ -813,7 +811,7 @@ input[value="Submit"]:hover {
 
 .a-propos {
     margin: 150px auto;
-    background-image: url(../assets/images/Pattern\ beige\ bi-color-10.png);
+    background-image: url(../assets/images/Pattern\ beige\ bi-color-10.webp);
     background-size: cover;
     background-position: top;
     padding: 40px;
@@ -825,13 +823,7 @@ input[value="Submit"]:hover {
 
 .a-propos-content {
     padding: 50px;
-    margin: auto;
     width: 50%;
-}
-
-.a-propos-content p {
-    font-weight: 300;
-    font-size: 14px;
 }
 
 // ANIMATIONS
@@ -885,12 +877,27 @@ input[value="Submit"]:hover {
 // MEDIA QUERIES
 
 @media screen and (max-width: 600px) {
-    .site-header{
+
+    .services-container > ul, .services-container li, .services-container li .services-title,
+    #site-vitrine, #site-ecommerce, #site-web-application, #identite-visuelle, .renaitre-container,
+    .a-propos-container, .form-section, .presentation, .list1 {
+        flex-direction: column;
+    }
+
+    .service-img img, .site-nav a, #flower2,  #flower3,  #flower4, #flower5 {
+        display: none;
+    }
+
+    .header-block, .animated-titles-list, .services-title h3, .service-description, .flower-images,
+    #flower1, .impact-numerique > h2, .a-propos-content, .form-section .form, .presentation-description {
+        width: auto;
+    }
+
+    .services-container, .services-container > ul, .renaitre-container {
         height: auto;
     }
 
     .header-block {
-        width: auto;
         align-items: center;
         justify-content: flex-end;
     }
@@ -903,10 +910,6 @@ input[value="Submit"]:hover {
         position: relative;
         top:0;
         right:0;
-    }
-
-    .site-nav a {
-        display: none;
     }
 
     .site-nav input:checked ~ .trigger {
@@ -927,13 +930,49 @@ input[value="Submit"]:hover {
         width: 152px;
     }
 
+    .paint-brush {
+        top: 122px;
+    }
+
+    // Typography
+
     h2 {
         text-align: center;
         font-size: 36px;
     }
 
+    .portfolio h2, #portfolio-page h1 {
+        margin-top: 0;
+        font-size: 58px;
+        margin-bottom: -50px;
+    }
+
+    .label, .form h2 {
+        font-size: 24px;
+    }
+
+    .form h2 {
+        line-height: normal;
+    }
+
+    .services h2 {
+        text-align: left;
+    }
+
+    .saviez-vous-text span {
+        font-size: 18px;
+    }
+
+    .services-title h3 {
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+
+    .a-propos-content h3 {
+        font-family: 'Audrey', Tahoma, sans-serif;
+    }
+
     .animated-titles-list {
-        width: auto;
         text-align: center;
     }
 
@@ -950,10 +989,6 @@ input[value="Submit"]:hover {
         margin: 10px;
     }
 
-    .saviez-vous-text span {
-        font-size: 18px;
-    }
-
     .ecology {
         margin: 50px auto;
     }
@@ -966,61 +1001,23 @@ input[value="Submit"]:hover {
         margin-bottom: 30px;
     }
 
-    .label {
-        font-size: 24px;
-    }
-
-    .services h2 {
-        text-align: left;
-    }
-
-    .services-container {
-        height: auto;
-    }
-
-    .services-container > ul {
-        height: auto;
-        flex-direction: column;
-    }
-    .services-container li {
-        flex-direction: column;
-    }
-
     .services-container li .services-title {
-        flex-direction: column;
         align-items: center;
         padding: 20px;
         justify-content: center;
     }
 
-    .services-title h3 {
-        writing-mode: horizontal-tb;
-        transform: none;
-        width: auto;
-    }
-
-    .a-propos-content h3 {
-        font-family: 'Audrey', Tahoma, sans-serif;
-    }
-
     #site-vitrine, #site-ecommerce, #site-web-application, #identite-visuelle {
         display: flex;
-        flex-direction: column;
         padding: 20px;
         border-right: 1px solid;
     }
 
-    .service-description {
-        width: auto;
-    }
-
     .renaitre-container {
-        height: auto;
-        flex-direction: column;
         align-items: center;
     }
 
-    .renaitre-content, .saviez-vous-text {
+    .renaitre-content, .saviez-vous-text, .site-nav .page-link {
         padding: 0;
     }
 
@@ -1031,24 +1028,10 @@ input[value="Submit"]:hover {
     .flower-images {
         margin: 90px auto 30px auto;
         position: inherit;
-        width: auto;
     }
 
     #flower1 {
-        width: auto;
         position: inherit;
-    }
-
-    #flower2,  #flower3,  #flower4, #flower5 {
-        display: none;
-    }
-
-    .impact-numerique > h2 {
-        width: auto;
-    }
-
-    .table {
-        grid-template-columns: 1fr;
     }
 
     .a-propos {
@@ -1056,52 +1039,32 @@ input[value="Submit"]:hover {
         margin: 50px auto 10px auto;
     }
 
-    .a-propos-container {
-        flex-direction: column;
-    }
-
     .a-propos-content {
-        width: auto;
         padding: 50px 30px 0px;
     }
     .portfolio {
         margin: 0px auto 20px auto;
     }
 
-    .portfolio h2 {
-        margin-top: 0;
-        font-size: 58px;
-        margin-bottom: -50px;
+    .portfolio-works {
+        padding: 30px;
     }
-    .portfolio-works ul {
+
+    .portfolio-works ul, .project-images-wrapper p, .table {
         grid-template-columns: 1fr;
     }
 
     .form-section {
         padding: 20px;
-        flex-direction: column;
     }
 
     .form-section .form {
-        width: auto;
         margin-top: 20px;
     }
 
-    .form h2 {
-        font-size: 24px;
-        line-height: normal;
-    }
-
-    .filter-bar ul {
-        flex-direction: column;
-    }
 
     #portfolio-page {
         margin: 30px 0 100px 0;
-    }
-
-    .presentation, .list1 {
-        flex-direction: column;
     }
 
     .list2, .presentation-header h1 {
@@ -1112,19 +1075,12 @@ input[value="Submit"]:hover {
         width: 100%;
     }
 
-    .presentation-description {
-        padding: 30px;
-        width: auto;
-    }
-    .project-images-wrapper {
+    .presentation-description, .project-images-wrapper {
         padding: 30px;
     }
 
-    .project-images-wrapper p {
-        grid-template-columns: 1fr;
-    }
-
-    .service-img {
-        display: none !important;
+    .site-nav input:checked ~ .trigger {
+        display: flex;
+        border-radius: 50px;
     }
 }

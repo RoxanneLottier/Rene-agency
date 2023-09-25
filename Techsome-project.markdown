@@ -17,8 +17,8 @@ description: Client qui souhaitait un site vitrine ainsi qu'une identité visuel
 project-url: https://www.techsome.fr/
 ---
 
-![Techsome homepage portfolio](/assets/images/Techsome/Portfolio-Techsome-1.png)
-![Techsome homepage services portfolio](/assets/images/Techsome/Portfolio-Techsome-2.png)
-![Techsome homepage clients and partners portfolio](/assets/images/Techsome/Portfolio-Techsome-3.png)
-![Techsome homepage contact portfolio](/assets/images/Techsome/Portfolio-Techsome-4.png)
+![Techsome homepage portfolio](/assets/images/Techsome/Portfolio-Techsome-1.webp)
+![Techsome homepage services portfolio](/assets/images/Techsome/Portfolio-Techsome-2.webp)
+![Techsome homepage clients and partners portfolio](/assets/images/Techsome/Portfolio-Techsome-3.webp)
+![Techsome homepage contact portfolio](/assets/images/Techsome/Portfolio-Techsome-4.webp)
 ![Techsome charte graphique portfolio](/assets/images/Techsome/Portfolio-Techsome-5.png)

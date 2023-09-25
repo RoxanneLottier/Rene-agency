@@ -18,6 +18,6 @@ description: J'ai été recruté en tant que développeur freelance pour amélio
 project-url: https://github.com/RoxanneLottier/Nina-Carducci
 ---
 
-![Nina Carducci homepage portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-1.png)
-![Nina Carducci gallery page portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-2.png)
-![Nina Carducci services page portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-3.png)
+![Nina Carducci homepage portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-1.webp)
+![Nina Carducci gallery page portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-2.webp)
+![Nina Carducci services page portfolio](/assets/images/Nina-Carducci/Portfolio-Nina-Carducci-3.webp)

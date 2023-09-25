@@ -17,13 +17,13 @@ description: Client qui souhaitait un site e-commerce pour le lancement de sa ma
 project-url: https://lafleurnue.com/
 ---
 
-![La Fleur Nue homepage portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-1.png)
-![La Fleur Nue homapge products portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-2.png)
-![La Fleur Nue hompage section portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-3.png)
-![La Fleur Nue hompage image section portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-4.png)
-![La Fleur Nue hompage custom icons portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-5.png)
-![La Fleur Nue page fabrication portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-6.png)
-![La Fleur Nue page made in France portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-7.png)
-![La Fleur Nue page collection produit portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-8.png)
-![La Fleur Nue page coffret portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-9.png)
-![La Fleur Nue page univers portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-10.png)
+![La Fleur Nue homepage portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-1.webp)
+![La Fleur Nue homapge products portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-2.webp)
+![La Fleur Nue hompage section portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-3.webp)
+![La Fleur Nue hompage image section portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-4.webp)
+![La Fleur Nue hompage custom icons portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-5.webp)
+![La Fleur Nue page fabrication portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-6.webp)
+![La Fleur Nue page made in France portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-7.webp)
+![La Fleur Nue page collection produit portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-8.webp)
+![La Fleur Nue page coffret portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-9.webp)
+![La Fleur Nue page univers portfolio](/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-10.webp)

@@ -18,4 +18,4 @@ description: J'ai été recruté en tant que développeur freelance pour dévelo
 project-url: https://github.com/RoxanneLottier/Booki
 ---
 
-![Booki homepage portfolio](/assets/images/Booki/Portfolio-Booki.png)
+![Booki homepage portfolio](/assets/images/Booki/Portfolio-Booki.webp)

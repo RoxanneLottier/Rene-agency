@@ -18,8 +18,8 @@ description: J'ai été recruté en tant que développeur freelance pour dévelo
 project-url: https://github.com/RoxanneLottier/Sophie-Buel
 ---
 
-![Sophie Buel homepage portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel.png)
-![Sophie Buel admin page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-1.png)
-![Sophie Buel login page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-2.png)
-![Sophie Buel modal page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-3.png)
-![Sophie Buel modal add works pages portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-4.png)
+![Sophie Buel homepage portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel.webp)
+![Sophie Buel admin page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-1.webp)
+![Sophie Buel login page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-2.webp)
+![Sophie Buel modal page portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-3.webp)
+![Sophie Buel modal add works pages portfolio](/assets/images/Sophie-Buel/Portfolio-Sophie-Buel-4.webp)

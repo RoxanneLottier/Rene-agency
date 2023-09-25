@@ -91,16 +91,16 @@
     </div>
 </section>
 <section class="project-images-wrapper">
-    <p><img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-1.png" alt="La Fleur Nue homepage portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-2.png" alt="La Fleur Nue homapge products portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-3.png" alt="La Fleur Nue hompage section portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-4.png" alt="La Fleur Nue hompage image section portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-5.png" alt="La Fleur Nue hompage custom icons portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-6.png" alt="La Fleur Nue page fabrication portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-7.png" alt="La Fleur Nue page made in France portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-8.png" alt="La Fleur Nue page collection produit portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-9.png" alt="La Fleur Nue page coffret portfolio" />
-<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-10.png" alt="La Fleur Nue page univers portfolio" /></p>
+    <p><img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-1.webp" alt="La Fleur Nue homepage portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-2.webp" alt="La Fleur Nue homapge products portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-3.webp" alt="La Fleur Nue hompage section portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-4.webp" alt="La Fleur Nue hompage image section portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-5.webp" alt="La Fleur Nue hompage custom icons portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-6.webp" alt="La Fleur Nue page fabrication portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-7.webp" alt="La Fleur Nue page made in France portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-8.webp" alt="La Fleur Nue page collection produit portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-9.webp" alt="La Fleur Nue page coffret portfolio" />
+<img src="/assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-10.webp" alt="La Fleur Nue page univers portfolio" /></p>
 
 </section>
       </div>
@@ -110,29 +110,29 @@
     <div class="wrapper">
         <section class="form-section">
             <div class="form-section-image">
-                <img src="../assets/images/Rene R logo black-XL.webp" alt="Rene R logo in black"/>
+                <img decoding="async" loading="lazy" src="../assets/images/Rene R logo black-XL.webp" alt="Rene R logo in black"/>
             </div>
             <div class="form">
                 <h2>PRET À AUGMENTER VOTRE CHIFFRE D'AFFAIRES TOUT EN SAUVANT LA PLANÈTE ?</h2>
                 <h3>CONTACTEZ-MOI</h3>
-                <form action="#" method="post">
+                <form action="contact.php" method="post">
                     <div class="name">
                         <label for="fname"></label>
-                        <input type="text" id="fname" name="fname" placeholder="Prénom">
+                        <input type="text" id="fname" name="fname" placeholder="Prénom" required>
 
                         <label for="lname"></label>
-                        <input type="text" id="lname" name="lname" placeholder="Nom">
+                        <input type="text" id="lname" name="lname" placeholder="Nom" required>
                     </div>
 
                     <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br>
 
                     <label for="business"></label>
-                    <input type="text" id="business" name="business" placeholder="Nom de l'entreprise"><br>
+                    <input type="text" id="business" name="business" placeholder="Nom de l'entreprise" required><br>
 
 
                     <label for="category" style="padding: 12px;">Service souhaité :</label>
-                    <select id="category" name="category">
+                    <select id="category" name="category" required>
                         <option value="option1">Site vitrine</option>
                         <option value="option2">Site e-commerce</option>
                         <option value="option3">Site-web / application</option>
@@ -141,7 +141,7 @@
                     </select><br>
 
                     <label for="message"></label>
-                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Message" required></textarea><br>
                     <input type="submit" value="Submit">
                 </form>
             </div>
@@ -153,4 +153,5 @@
   </footer></body>
   <script src="/assets/javascript/services.js"></script>
   <script src="/assets/javascript/filter.js"></script>
+  <?php include 'contact.php'; ?>
 </html>
