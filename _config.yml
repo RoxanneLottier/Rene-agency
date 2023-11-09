@@ -21,7 +21,7 @@
 title: Re(né) agency
 email: roxanne@rene-agency.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Créateur de site ecoresponsable
+  Agence web spécialisée dans la création de sites éco-responsables. Je réalise des sites vitrine, e-commerce ou des applications web conscients de leur empreinte carbone.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rene-agency.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:

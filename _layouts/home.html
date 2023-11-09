@@ -3,92 +3,278 @@ layout: default
 ---
 
 <div class="home">
-  <section class="under-header-info">
-    <h1>SPECIALISTE DE LA GREEN TECH</h1>
-    <div class="animated-titles-list">
-        <span>{{"WEB DESIGN" | upcase }}</span>
-        <span>{{"DEVELOPPEMENT FRONT-END" | upcase }}</span>
-        <span>{{"ACCESSIBILITé" | upcase }}</span>
-        <span>{{"SEO" | upcase }}</span>
-    </div>
-    <div class="under-header-buttons">
-        <div class="button-wrapper">
-            <a class="button1" href="#services">{{"Services" | upcase }}</a>
-            <div class="background-animation"></div>
-        </div>
-        <div class="button-wrapper">
-            <a class="button1" href="{% link portfolio.markdown %}">{{"Portfolio" | upcase }}</a>
-            <div class="background-animation"></div>
-        </div>
-    </div>
-    <img class="flower2" width="400" height="400" src="../assets/Illustrations/Flower 1 with outlines.webp" alt="flower-illustration-rene-aagency"/>
-    <div class="animated-text-slider">
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
-    </div>
-    <div class="animated-text-slider">
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-        <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
-    </div>
-  </section>
-  <section class="le-saviez-vous">
-    <div class="saviez-vous-container">
-        <div class="saviez-vous-text">
-            <h2>{{"le saviez-vous ?" | upcase }}</h2>
-            <p>Chaque site internet, chaque page, chaque clic, a un impact sur l’environnement, cela s’appelle la</p>
-            <span>{{"pollution numérique" | upcase }}</span>
-            <img decoding="async" loading="lazy" width="490" height="110" class="paint-brush" src="../assets/Illustrations/Paint brush sand.webp" alt="Rene paint brush sand"/>
-            <div class="saviez-vous-paragraph">
-                <div class="img-text-container">
-                    <img decoding="async" loading="lazy" width="50" height="46" class="icon-img" src="../assets/Icons/plane-solid-sand.webp" alt="Plane solid sand"/>
-                    <p>Aller sur internet demande une production d'électricité importante. Aujourd’hui, l’empreinte carbone du numérique dépasse celle du voyage aérien.</p>
+    <section class="under-header-info">
+        <img src="../assets/images/Logo/rene-logo-sans-agency-XL-sand.webp" alt="rene-log-XL-sand">
+        <h1>{{"Création de site internet" | upcase }}</br><span>éco-reponsable</span></h1>
+    </section>
+    <section class="why-eco-friendly">
+        <div class="wrapper">
+            <h2>{{"Une agence web " | upcase }}<span class="text-highlighted terracota-highlight">{{"éco-responsable" | upcase }}</span></h2>
+            <h3>pourquoi avoir un site à faible émission carbone ?</h3>
+            <div class="icon-section">
+                <div class="icon-section-column">
+                    <img src="../assets/Icons/planet-icon.webp" alt="earth-icon">
+                    <div class="icon-section-text">
+                        <h4>{{"Responsabilité environnementale" | upcase }}</h4>
+                        <p>Un site web éco-responsable minimise la consommation d'énergie utilisé pour son fonctionnement.</p>
+                    </div>
                 </div>
-                <div class="img-text-container">
-                    <img decoding="async" loading="lazy" width="50" height="52" class="icon-img" src="../assets/Illustrations/Carte de la france paint brush sand2.webp" alt="carte-de-France"/>
-                    <p>Le numérique mondial représente un 7ème continent de la taille de 2 à 3 fois celle de la France. *</p>
+                <div class="icon-section-column">
+                    <img src="../assets/Icons/user-icon.webp" alt="user-icon">
+                    <div class="icon-section-text">
+                        <h4>{{"Expérience utilisateur" | upcase }}</h4>
+                        <p>Un site rapide est performant et plus accessible pour une meilleure expérience utilisateur.</p>
+                    </div>
+                </div>
+                <div class="icon-section-column">
+                    <img src="../assets/Icons/seo-icon.webp" alt="seo-magnifying-glass-icon">
+                    <div class="icon-section-text">
+                        <h4>{{"SEO" | upcase }}</h4>
+                        <p>Les moteurs de recherche comme Google considèrent la vitesse de la page comme un facteur de classement.</p>
+                    </div>
+                </div>
+                <div class="icon-section-column">
+                    <img src="../assets/Icons/money-icon.webp" alt="hand-holding-money-icon">
+                    <div class="icon-section-text">
+                        <h4>{{"Économies à long terme" | upcase }}</h4>
+                        <p>Un site web éco-responsable  entraîne des coûts d'hébergement réduits</p>
+                    </div>
                 </div>
             </div>
-            <a href="#contact"><button class="inquire-button" type="button">Demander un devis</button></a>
+            <p id="audit-announcement" class="marketing-annoucement">offre de lancement, <span class="text-highlighted wallnut-highlight small-highlight"><a href="#">audit offert !</a></span></p>
+            <a href="#contact" class="inquire-button terracota-button">demander un audit</a>
         </div>
-        <span class="anotation">* Donées de greenit.com</span>
-    </div>
-  </section>
-  <section class="ecology">
+    </section>
+    <section class="service-a-la-carte">
+        <div id="a-la-carte" class="wrapper">
+            <div class="text-content">
+                <h2>{{"Un service " | upcase }}<span class="text-highlighted sand-highlight">{{"à la carte" | upcase }}</span>{{" pour répondre a vos besoin specifique" | upcase }}</h2>
+                <h3>on s adapte à vos besoin afin de vous proposer une offre sur-mesure</h3>
+                <p id="list-of-actions" class="marketing-annoucement">
+                    <span>écoute</span>
+                    <span>.</span>
+                    <span>guide</span>
+                    <span>.</span>
+                    <span>créer</span>
+                    <span>.</span>
+                    <span>développe</span>
+                    <span>.</span>
+                    <span>optimise</span>
+                    <span>.</span>
+                    <span>maintient</span>
+                </p>
+                <a href="https://rb5pq67djgi.typeform.com/to/g4P4QBHz" target="_blank" class="inquire-button black-button">{{"faire une estimation" | upcase }}</a>
+            </div>
+            <div class="banderol">
+                <div class="animated-text-slider" id="text-1">
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text">{{"simple . beau . efficace . " | upcase }}</span>
+                </div>
+                <div class="animated-text-slider" id="text-2">
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                    <span class="animated-text2">{{"simple . beau . efficace . " | upcase }}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="wrapper">
+            <h2 class="bigger-title">{{"services" | upcase }}</h2>
+            <div class="services-container">
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"site vitrine" | upcase }}</h3>
+                        <p>Envie d’un site qui reflète votre commerce ou vos services ? La création d’un site vitrine est parfaite pour vous. Entièrement sur-mesure ou en partant d’un template qui vous plaît, je personnalise votre site en cohérence avec votre univers.</p>
+                        <img src="../assets/images/Services/mobile-website-portfolio-techsome.webp" alt="mobile-version-of-techsome-website">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "à partir de 800€" | upcase }}</span>
+                </div>
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"Site e-commerce" | upcase }}</h3>
+                        <p>Vous avez une vision unique pour votre entreprise, et un site e-commerce sur mesure peut vous aider à la concrétiser. Imaginez une plateforme en ligne qui reflète l'essence de votre marque, mettant en avant vos produits de manière attrayante et intuitive.</p>
+                        <img src="../assets/images/Services/la-fleur-nue-ipad-website.webp" alt="tablette-version-of-la-fleur-nue-website">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "à partir de 1000€" | upcase }}</span>
+                </div>
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"APPLICATION WEB" | upcase }}</h3>
+                        <p>Vous cherchez à donner vie à vos idées en ligne ?Je transforme vos concepts en une expérience utilisateur captivante. Grâce à une expertise approfondie en HTML, CSS et JavaScript, je conçois des interfaces utilisateur impeccables et réactives qui fonctionnent sur tous les appareils.</p>
+                        <img src="../assets/images/Services/Kasa-web-application-labtop.webp" alt="laptop-kasa-web-application">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
+                </div>
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"Identité visuelle" | upcase }}</h3>
+                        <p>Un site web exceptionnel est une chose, mais une identité visuelle forte est ce qui vous distingue vraiment. En complément d’un site nous vous proposons de réaliser votre identité visuelle. Elle sera parfaitement intégrée à votre site web, créant ainsi une expérience unifiée pour vos visiteurs.</p>
+                        <img src="../assets/images/Services/polpo-nero-charte-graphique.webp" alt="laptop-kasa-web-application">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "à partir de 500€" | upcase }}</span>
+                </div>
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"audit eco-responsabilité web" | upcase }}</h3>
+                        <p>Notre service d'audit de site se concentre sur l'éco-responsabilité numérique. Nous passons au crible chaque élément pour identifier les opportunités d'amélioration. De l'efficacité énergétique à la réduction de l'empreinte carbone, nous vous aidons à prendre des mesures concrètes.</p>
+                        <img src="../assets/images/Services/nina-carducci-mobile.webp" alt="mobile-version-nina-carducci-site-internet">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
+                </div>
+                <div class="services-component">
+                    <div class="services-component-content">
+                        <h3>{{"Gestion & modification" | upcase }}</h3>
+                        <p>This is your moment to shine. Tell us everything, so we can really get to know you and what your business is about. During this time, we’ll also reveal more about our design approach.</p>
+                        <img src="../assets/images/Services/labtop-website-portfolio-sophie-buel.webp" alt="laptop-version-sophie-buel-site-internet">
+                    </div>
+                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
+                </div>
+            </div>
+            <div class="button-container-centered">
+                <a href="#contact" class="inquire-button black-button">{{"demander un devis" | upcase }}</a>
+            </div>
+        </div>
+    </section>
+    <section class="travailler-avec-nous">
+        <div class="wrapper">
+            <h2 class="bigger-title">{{"pourquoi travailler avec nous:" | lowcase }}</h2>
+            <div class="travailler-table">
+                <div class="travailler-box-container padding-right border-right-top padding-bottom">
+                    <div class="travailler-box">
+                        <h3>un hébergement éco-reponsable</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container border-right-top padding-right padding-left padding-bottom">
+                    <div class="travailler-box end">
+                        <h3>un devis personnaliser</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container border-right-top padding-right padding-left padding-bottom">
+                    <div class="travailler-box">
+                        <h3>un site internet sur-mesure</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container padding-left padding-bottom">
+                    <div class="travailler-box end">
+                        <h3>des developpeurs compétents</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container border-right-bottom padding-right border-top padding-top">
+                    <div class="travailler-box">
+                        <h3>un site internet ecoIndex A ou B</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container border-right-bottom padding-right padding-left border-top padding-top">
+                    <div class="travailler-box end">
+                        <h3>vous pouvez mettre à jour votre site facilement</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container border-right-bottom padding-right padding-left border-top padding-top">
+                    <div class="travailler-box">
+                        <h3>un site internet accessible</h3>
+                    </div>
+                </div>
+                <div class="travailler-box-container padding-left border-top padding-top">
+                    <div class="travailler-box end">
+                        <h3>un site internet performant et durable</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container-centered">
+                <a href="#contact" class="inquire-button terracota-button">demander un devis</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="wrapper">
+            <div class="form-section">
+                <div class="form">
+                    <h2 class="bigger-title">{{"contact" | upcase }}</h2>
+                    <h3>{{"Construisez Votre Avenir en Ligne," | upcase }}<br>{{"tout en" | upcase }}<span class="text-highlighted wallnut-highlight">{{" Respectant la Planète."| upcase }}</span></h3>
+                    <h4>{{"créeons un site internet eco-responsable ensemble" | lowcase }}</h4>
+                    <form action="https://formspree.io/f/mwkdrggg" method="POST">
+                        <div class="form-field-wrapper">
+                            <label for="fname">Prénom</label>
+                            <input class="width90" type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="form-field-wrapper">
+                            <label for="lname">Nom</label>
+                            <input class="width90" type="text" id="lname" name="lname" required>
+                        </div>
+                        <div class="form-field-wrapper email">
+                            <label for="email">Email</label>
+                            <input class="width95" type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-field-wrapper business">
+                            <label for="business">Nom de l'entreprise</label>
+                            <input class="width95" type="text" id="business" name="business" required>
+                        </div>
+                        <div class="form-field-wrapper service">
+                            <label for="category">Service souhaité :</label>
+                            <select id="category" name="category" required>
+                                <option value="" disabled selected>Sélectionner le service souhaité</option>
+                                <option value="Site vitrine">Site vitrine</option>
+                                <option value="Site e-commerce">Site e-commerce</option>
+                                <option value="Site-web / application">Site-web / application</option>
+                                <option value="Site vitrine & identité visuelle">Site vitrine & identité visuelle</option>
+                                <option value="Site e-commerce & identité visuelle">Site e-commerce & identité visuelle</option>
+                                <option value="audit éco-reponsable">audit éco-reponsable</option>
+                                <option value="gestion et/ou modification">gestion et/ou modification</option>
+                                <option value="autres">autres</option>
+                            </select><br>
+                        </div>
+                        <div class="form-field-wrapper message">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                        </div>
+                        <input type="submit" value="ENVOYER">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- <section class="ecology">
     <h2>{{"ce site émet par page vue" | upcase }}</h2>
     <div class="number-container">
         <div class="number-column">
             <span class="letter">A</span>
-            <img decoding="async" loading="lazy" width="70" height="100" class="paint-brush-aqua" src="../assets/Illustrations/paint brush aqua2.webp" alt="paint-brush-aqua"/>
+            <img decoding="async" loading="lazy" width="70" height="100" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua-2.webp" alt="paint-brush-stroke-aqua-number1">
             <span class="label">ecoIndex</span>
-            <img decoding="async" loading="lazy" width="40" height="40" src="../assets/Icons/circle-info-solid.webp" alt="index-icon-in-a-circle-black"/>
+            <img decoding="async" loading="lazy" width="40" height="40" src="../assets/Icons/circle-info-solid.webp" alt="index-icon-in-a-circle-black">
         </div>
         <div class="number-column">
-            <span class="number">1.2cl</span>
-            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint brush aqua.webp" alt="paint-brush-aqua"/>
+            <span class="number">1.99cl</span>
+            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua.webp" alt="paint-brush-stroke-aqua-number2">
             <span class="label">H<sub>2</sub>0</span>
-            <img decoding="async" loading="lazy" width="40" height="50" src="../assets/Icons/droplets-solid.webp" alt="droplets-icon-black"/>
+            <img decoding="async" loading="lazy" width="40" height="50" src="../assets/Icons/droplets-solid.webp" alt="droplets-icon-black">
         </div>
         <div class="number-column">
-            <span class="number">0.25g</span>
-            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint brush aqua.webp" alt="paint-brush-aqua"/>
+            <span class="number">1.33g</span>
+            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua.webp" alt="paint-brush-stroke-aqua-number3">
             <span class="label">CO<sup>2</sup></span>
-            <img decoding="async" loading="lazy" width="40" height="28" src="../assets/Icons/cloud-solid.webp" alt="cloud-icon-black"/>
+            <img decoding="async" loading="lazy" width="40" height="28" src="../assets/Icons/cloud-solid.webp" alt="cloud-icon-black">
         </div>
     </div>
-  </section>
-  <section class="services" id="services">
+</section> -->
+<!-- <section class="services" id="services">
     <h2>{{"services" | upcase }}</h2>
     <div class="services-container">
         <ul>
@@ -104,7 +290,7 @@ layout: default
                             Envie d’un site qui reflète votre commerce ou vos services ? La création d’un site vitrine est parfaite pour vous. Entièrement sur-mesure ou en partant d’un template qui vous plaît, je personnalise votre site en cohérence avec votre univers.<br>
                             Un site vitrine vous permet d'avoir une présence sur Internet, ce qui est devenu essentiel dans le monde numérique d'aujourd'hui. Il offre la possibilité d'être trouvé en ligne par des clients potentiels, ce qui peut augmenter votre visibilité et élargir votre audience. Un site web bien conçu renforce la crédibilité de votre entreprise et donne une image plus professionnelle.
                         </p>
-                        <a href="#contact"><button class="inquire-button" type="button">Demander un devis</button></a>
+                        <a href="#contact" class="inquire-button">Demander un devis</a>
                     </div>
                     <div class="includes-list">
                         <h4>{{"inclut" | upcase }}</h4>
@@ -122,7 +308,7 @@ layout: default
                         </ul>
                     </div>
                     <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/techsome-mobile-website-on-iphone.webp" alt="example-site-vitrine-rene"/>
+                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/techsome-mobile-website-on-iphone.webp" alt="example-site-vitrine-rene">
                     </div>
                 </div>
             </li>
@@ -138,7 +324,7 @@ layout: default
                             Vous avez une vision unique pour votre entreprise, et un site e-commerce sur mesure peut vous aider à la concrétiser. Imaginez une plateforme en ligne qui reflète l'essence de votre marque, mettant en avant vos produits de manière attrayante et intuitive.<br>
                             Avec une conception pensée pour l'expérience utilisateur, vos clients pourront naviguer en toute simplicité, découvrir vos offres et finaliser leurs achats en toute confiance. De plus, une solution e-commerce personnalisée offre la flexibilité nécessaire pour évoluer avec votre entreprise, vous permettant d'ajouter de nouveaux produits, de gérer les commandes et d'optimiser votre catalogue à tout moment.
                         </p>
-                        <a href="#contact"><button class="inquire-button" type="button">Demander un devis</button></a>
+                        <a href="#contact" class="inquire-button">Demander un devis</a>
                     </div>
                     <div class="includes-list">
                         <h4>{{"inclut" | upcase }}</h4>
@@ -153,12 +339,12 @@ layout: default
                         </ul>
                     </div>
                     <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/la-fleur-nue-ipad-website.webp" alt="example-site-vitrine-rene"/>
+                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/la-fleur-nue-ipad-website.webp" alt="example-site-e-commerce-rene">
                     </div>
                 </div>
             </li>
             <li>
-                <div class="services-title" style="color: #F9F1E8; background-color: #D5B8A7;">
+                <div class="services-title" style="color: #fdfdfd; background-color: #D5B8A7;">
                     <h3 id="title-web-application" >{{"site web / Application" | upcase }}</h3>
                 </div>
                 <div class="services-content" style="display: none;" id="site-web-application">
@@ -170,7 +356,7 @@ layout: default
                             Je transforme vos concepts en une expérience utilisateur captivante. Grâce à une expertise approfondie en HTML, CSS et JavaScript, je conçois des interfaces utilisateur impeccables et réactives qui fonctionnent sur tous les appareils. Des animations fluides aux transitions intuitives, chaque détail est soigneusement façonné pour offrir une expérience web exceptionnelle.<br>
                             Je comprend l'importance de l'accessibilité et de la compatibilité entre navigateurs, assurant ainsi que votre site fonctionne de manière optimale pour tous vos visiteurs.
                         </p>
-                        <a href="#contact"><button class="inquire-button" type="button">Demander un devis</button></a>
+                        <a href="#contact" class="inquire-button">Demander un devis</a>
                     </div>
                     <div class="includes-list">
                         <h4>{{"compétences" | upcase }}</h4>
@@ -185,7 +371,7 @@ layout: default
                         </ul>
                     </div>
                     <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Kasa-web-application-labtop.webp" alt="example-site-vitrine-rene"/>
+                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Kasa-web-application-labtop.webp" alt="example-application-web-rene">
                     </div>
                 </div>
             </li>
@@ -200,7 +386,7 @@ layout: default
                         <p>
                             This is your moment to shine. Tell us everything, so we can really get to know you and what your business is about. During this time, we’ll also reveal more about our design approach. If the stars align, we’ll send you a project timeline and brand questionnaire, so we can create your individual identity that reflects you and the customers you want to attract.From there, we’ll capture every single aspect of your “what” and “why” to deliver an in-depth brand strategy that vibes with your business goals and target audience, along with a visual moodboard that strategically positions your brand to stand out versus blend in.
                         </p>
-                        <a href="#contact"><button class="inquire-button" type="button">Demander un devis</button></a>
+                        <a href="#contact" class="inquire-button">Demander un devis</a>
                     </div>
                     <div class="includes-list">
                         <h4>{{"inclut" | upcase }}</h4>
@@ -214,67 +400,41 @@ layout: default
                         </ul>
                     </div>
                     <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Carte de visite portfolio.webp" alt="example-site-vitrine-rene"/>
+                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Carte-de-visite-portfolio.webp" alt="carte-de-visite-rene-agency">
                     </div>
                 </div>
             </li>
         </ul>
     </div>
-  </section>
-  <section class="renaitre">
+</section>
+<section class="renaitre">
     <div class="renaitre-container">
         <div class="renaitre-content">
             <h2>{{"envie de faire re(naitre) votre business ?" | upcase }}</h2>
-            <button class="inquire-button2" type="button">Demander un devis</button>
+            <a href="#contact" class="inquire-button2">Demander un devis</a>
             <div>
                 <h2>{{"plus" | upcase }}</h2>
                 <div class="animated-titles-list2">
                     <span>{{"rapide" | upcase }}</span>
                     <span>{{"accessible" | upcase }}</span>
                     <span>{{"performant" | upcase }}</span>
-                    <span>{{"référencé" | upcase }}</span>
+                    <span>{{"éco-responsable" | upcase }}</span>
                 </div>
             </div>
         </div>
         <div class="flower-images">
-            <img decoding="async" loading="lazy" width="224" height="320" id="flower1" src="../assets/Illustrations/Flower 3 with outlines.webp" alt="flower-illustration-aqua"/>
-            <img decoding="async" loading="lazy" width="168" height="240" id="flower2" src="../assets/Illustrations/Flower 3 with outlines.webp" alt="flower-illustration-aqua"/>
-            <img decoding="async" loading="lazy" width="168" height="240" id="flower3" src="../assets/Illustrations/Flower 3 with outlines.webp" alt="flower-illustration-aqua"/>
-            <img decoding="async" loading="lazy" width="112" height="160" id="flower4" src="../assets/Illustrations/Flower 3 with outlines.webp" alt="flower-illustration-aqua"/>
-            <img decoding="async" loading="lazy" width="280" height="400" id="flower5" src="../assets/Illustrations/Flower 3 with outlines.webp" alt="flower-illustration-aqua"/>
+            <img decoding="async" loading="lazy" width="224" height="320" id="flower1" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number1">
+            <img decoding="async" loading="lazy" width="168" height="240" id="flower2" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number2">
+            <img decoding="async" loading="lazy" width="168" height="240" id="flower3" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number3">
+            <img decoding="async" loading="lazy" width="112" height="160" id="flower4" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number4">
+            <img decoding="async" loading="lazy" width="280" height="400" id="flower5" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number5">
         </div>
     </div>
-  </section>
-  <section class="impact-numerique">
-    <h2>{{"CONTRIBUTION DU NUMÉRIQUE À L’EMPREINTE DE L’HUMANITÉ" | upcase }}</h2>
-    <div class="table">
-        <div class="table-column">
-            <img decoding="async" loading="lazy" width="40" height="53" src="../assets/Icons/bolt-solid.webp" alt="lightning-bolt-icon"/>
-            <span>4,2%</span>
-            <p>consommation d'énergie primaire</p>
-        </div>
-        <div class="table-column">
-            <img decoding="async" loading="lazy" width="40" height="28" src="../assets/Icons/cloud-solid.webp" alt="cloud-icon"/>
-            <span>3,2%</span>
-            <p>émission de gaz à effet de serre</p>
-        </div>
-        <div class="table-column">
-            <img decoding="async" loading="lazy" width="40" height="50" src="../assets/Icons/droplets-solid.webp" alt="water-drop-icon"/>
-            <span>0,2%</span>
-            <p>consommation d'eau</p>
-        </div>
-        <div class="table-column">
-            <img decoding="async" loading="lazy" width="40" height="53" src="../assets/Icons/plug-solid.webp" alt="electricity-plug-icon"/>
-            <span>5,6%</span>
-            <p>consommation d'électricité</p>
-        </div>
-    </div>
-    <span class="anotation">* Donées de greenit.com</span>
-  </section>
-  <section class="a-propos" id="a-propos">
+</section> -->
+<!-- <section class="a-propos" id="a-propos">
     <h2>{{"A propos" | upcase }}</h2>
     <div class="a-propos-container">
-        <img decoding="async" loading="lazy" src="../assets/images/Photo-roxanne-b&w.png" alt="Roxanne Lottier en noir et blanc"/>
+        <img decoding="async" loading="lazy" src="../assets/images/Photo-roxanne-b&w.png" alt="Roxanne Lottier en noir et blanc">
         <div class="a-propos-content">
             <h3>{{"Bonjour, moi c’est Roxanne" | upcase }}</h3>
             <p>
@@ -282,126 +442,127 @@ layout: default
             </p>
         </div>
     </div>
-  </section>
-  <section class="portfolio">
-    <h2>{{"portfolio" | upcase }}</h2>
-    <div class="portfolio-works">
-        <ul>
-            <li class="works">
-                <figure>
-                    <a href="{% link kasa-project.markdown %}">
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/Kasa/portfolio-kasa.webp" alt="Kasa-website-web-application-react"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"application-web" | upcase }}</h3>
-                                <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
-                                <h3>{{"React" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-            <li class="works">
-                <figure>
-                    <a href="{% link Sophie-Buel-project.markdown %}">
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/porfolio-sophie-buel.webp"alt="Sophie-Buel-website-site-vitrine-web-development"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"site vitrine" | upcase }}</h3>
-                                <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
-                                <h3>{{"vanilla JS" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-            <li class="works">
-                <figure>
-                    <a href="{% link Booki-project.markdown %}">
-                        <img src="../assets/images/Booki/Portfolio-Booki.webp" alt="Booki-website-integration"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"application web" | upcase }}</h3>
-                                <h3>{{"integration web" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-            <li class="works">
-                <figure>
-                    <a href="{% link La-Fleur-Nue-project.markdown %}">
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-la-fleur-nue.webp" alt="La-Fleur-Nue-website-site-e-commerce"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"site-ecommerce" | upcase }}</h3>
-                                <h3>{{"web-design" | upcase }}</h3>
-                                <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
-                                <h3>{{"Wordpress" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-            <li class="works">
-                <figure>
-                    <a href="{% link Nina-Carducci-project.markdown %}">
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-nina-carducci.webp" alt="Nina-Carducci-website-performance-seo"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"site-vitrine" | upcase }}</h3>
-                                <h3>{{"SEO" | upcase }}</h3>
-                                <h3>{{"ACCESSIBILITé" | upcase }}</h3>
-                                <h3>{{"Performances" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-            <li class="works">
-                <figure>
-                    <a href="{% link Techsome-project.markdown %}">
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-techsome.webp" alt="Techsome-website-site-vitirne"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <h3>{{"site-vitrine" | upcase }}</h3>
-                                <h3>{{"web-design" | upcase }}</h3>
-                                <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
-                                <h3>{{"identité visuelle" | upcase }}</h3>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </a>
-                </figure>
-            </li>
-        </ul>
-    </div>
-    <div class="button-wrapper" id="portfolio-button">
-        <a class="button1" href="{% link portfolio.markdown %}">{{"voir tous les projets" | upcase }}</a>
-        <div class="background-animation"></div>
-    </div>
-  </section>
+</section> -->
+<!-- <section class="portfolio">
+<h2>{{"portfolio" | upcase }}</h2>
+<div class="portfolio-works">
+<ul>
+    <li class="works">
+        <a href="{% link kasa-project.markdown %}">
+            <figure>
+                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/Kasa/portfolio-kasa.webp" alt="Kasa-website-web-application-react">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"application-web" | upcase }}</h3>
+                        <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
+                        <h3>{{"React" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="works">
+        <a href="{% link Sophie-Buel-project.markdown %}">
+            <figure>
+                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/porfolio-sophie-buel.webp" alt="Sophie-Buel-website-site-vitrine-web-development">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"site vitrine" | upcase }}</h3>
+                        <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
+                        <h3>{{"vanilla JS" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="works">
+        <a href="{% link Booki-project.markdown %}">
+            <figure>
+                <img src="../assets/images/Booki/Portfolio-Booki.webp" alt="Booki-website-integration">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"application web" | upcase }}</h3>
+                        <h3>{{"integration web" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="works">
+        <a href="{% link La-Fleur-Nue-project.markdown %}">
+            <figure>
+                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-la-fleur-nue.webp" alt="La-Fleur-Nue-website-site-e-commerce">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"site-ecommerce" | upcase }}</h3>
+                        <h3>{{"web-design" | upcase }}</h3>
+                        <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
+                        <h3>{{"Wordpress" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="works">
+        <a href="{% link Nina-Carducci-project.markdown %}">
+            <figure>
+                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-nina-carducci.webp" alt="Nina-Carducci-website-performance-seo">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"site-vitrine" | upcase }}</h3>
+                        <h3>{{"SEO" | upcase }}</h3>
+                        <h3>{{"ACCESSIBILITé" | upcase }}</h3>
+                        <h3>{{"Performances" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="works">
+        <a href="{% link Techsome-project.markdown %}">
+            <figure>
+                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-techsome.webp" alt="Techsome-website-site-vitirne">
+                <figcaption class="hover-card">
+                    <div class="hover-card-title">
+                        <h3>{{"site-vitrine" | upcase }}</h3>
+                        <h3>{{"web-design" | upcase }}</h3>
+                        <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
+                        <h3>{{"identité visuelle" | upcase }}</h3>
+                    </div>
+                    <div class="voir-plus">
+                        <span>découvrir le projet</span>
+                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
+    </li>
+</ul>
 </div>
+<div class="button-wrapper" id="portfolio-button">
+<a class="button1" href="{% link portfolio.markdown %}">{{"voir tous les projets" | upcase }}</a>
+<div class="background-animation"></div>
+</div>
+</section> -->
+</div>
+
