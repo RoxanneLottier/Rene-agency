@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{{ page.lang | default: site.lang | default: "fr" }}">
+
+  {%- include head.html -%}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T20RNJ8HB8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T20RNJ8HB8');
+  </script>
+  <body>
+
+    {%- include header2.html -%}
+
+    <main class="page-content" aria-label="Content">
+        {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+    <script async src="/assets/javascript/services.js"></script>
+    <script async src="/assets/javascript/filter.js"></script>
+  </body>
+</html>

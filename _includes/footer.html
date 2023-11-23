@@ -1,24 +1,24 @@
 <footer class="h-card" id="contact">
     <div class="site-footer">
-            <img class="XL-R-logo" src="../assets/images/Logo/Rene-R-logo-black-XL.webp" alt="logo-rene-agency-R-black">
+            <img class="XL-R-logo" src="/../assets/images/Logo/Rene-R-logo-black-XL.webp" alt="logo-rene-agency-R-black">
             <div class="footer-column-2">
                 <p>
                 Agence web spécialisée dans la création de sites éco-responsables. Nous aidons de jeunes entrepreneurs à développer leur identité numérique à travers
                 la création de leur site internet. Nous réalisons des sites conscients de leur empreinte carbone. Créeons l'avenir du web, un site à la fois, avec conscience écologique.
                 </p>
                 <div class="socials">
-                    <a href=""><img src="../assets/images/Socials/logo-instagram.webp" alt="logo-instagram"></a>
-                    <a href=""><img src="../assets/images/Socials/logo-linkedin-black.webp" alt="logo-linkedin"></a>
+                    <a href=""><img src="/../assets/images/Socials/logo-instagram.webp" alt="logo-instagram"></a>
+                    <a href=""><img src="/../assets/images/Socials/logo-linkedin-black.webp" alt="logo-linkedin"></a>
                 </div>
             </div>
             <div class="footer-column-3">
                 <!-- <img src="../assets/images/Logo/Rene-logo.webp" alt="rene-logo-black"> -->
                 <ul>
-                    <li><a href="">accueil</a></li>
-                    <li><a href="">services</a></li>
-                    <li><a href="">éco-responsabilité web</a></li>
-                    <li><a href="">portfolio</a></li>
-                    <li><a href="">blog</a></li>
+                    <li><a href="{{ "/" | relative_url }}">accueil</a></li>
+                    <li><a href="{% link services.markdown %}">services</a></li>
+                    <li><a href="{% link ecoresponsabilite.markdown %}">éco-responsabilité web</a></li>
+                    <li><a href="{% link portfolio.markdown %}">portfolio</a></li>
+                    <li><a href="{% link blog.markdown %}">blog</a></li>
                 </ul>
             </div>
     </div>

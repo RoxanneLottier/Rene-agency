@@ -5,7 +5,7 @@ layout: default
 <div class="home">
     <section class="under-header-info">
         <img src="../assets/images/Logo/rene-logo-sans-agency-XL-sand.webp" alt="rene-log-XL-sand">
-        <h1>{{"Création de site internet" | upcase }}</br><span>éco-reponsable</span></h1>
+        <h1 class="sand">{{"Création de site internet" | upcase }}</br><span>éco-reponsable</span></h1>
     </section>
     <section class="why-eco-friendly">
         <div class="wrapper">
@@ -41,7 +41,7 @@ layout: default
                     </div>
                 </div>
             </div>
-            <p id="audit-announcement" class="marketing-annoucement">offre de lancement, <span class="text-highlighted wallnut-highlight small-highlight"><a href="#">audit offert !</a></span></p>
+            <p id="audit-announcement" class="marketing-annoucement">offre de lancement, <span class="text-highlighted wallnut-highlight small-highlight"><a href="#contact">audit offert !</a></span></p>
             <a href="#contact" class="inquire-button terracota-button">demander un audit</a>
         </div>
     </section>
@@ -99,7 +99,7 @@ layout: default
                         <p>Envie d’un site qui reflète votre commerce ou vos services ? La création d’un site vitrine est parfaite pour vous. Entièrement sur-mesure ou en partant d’un template qui vous plaît, je personnalise votre site en cohérence avec votre univers.</p>
                         <img src="../assets/images/Services/mobile-website-portfolio-techsome.webp" alt="mobile-version-of-techsome-website">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "à partir de 800€" | upcase }}</span>
                 </div>
                 <div class="services-component">
@@ -108,7 +108,7 @@ layout: default
                         <p>Vous avez une vision unique pour votre entreprise, et un site e-commerce sur mesure peut vous aider à la concrétiser. Imaginez une plateforme en ligne qui reflète l'essence de votre marque, mettant en avant vos produits de manière attrayante et intuitive.</p>
                         <img src="../assets/images/Services/la-fleur-nue-ipad-website.webp" alt="tablette-version-of-la-fleur-nue-website">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "à partir de 1000€" | upcase }}</span>
                 </div>
                 <div class="services-component">
@@ -117,7 +117,7 @@ layout: default
                         <p>Vous cherchez à donner vie à vos idées en ligne ?Je transforme vos concepts en une expérience utilisateur captivante. Grâce à une expertise approfondie en HTML, CSS et JavaScript, je conçois des interfaces utilisateur impeccables et réactives qui fonctionnent sur tous les appareils.</p>
                         <img src="../assets/images/Services/Kasa-web-application-labtop.webp" alt="laptop-kasa-web-application">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
                 </div>
                 <div class="services-component">
@@ -126,7 +126,7 @@ layout: default
                         <p>Un site web exceptionnel est une chose, mais une identité visuelle forte est ce qui vous distingue vraiment. En complément d’un site nous vous proposons de réaliser votre identité visuelle. Elle sera parfaitement intégrée à votre site web, créant ainsi une expérience unifiée pour vos visiteurs.</p>
                         <img src="../assets/images/Services/polpo-nero-charte-graphique.webp" alt="laptop-kasa-web-application">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "à partir de 500€" | upcase }}</span>
                 </div>
                 <div class="services-component">
@@ -135,7 +135,7 @@ layout: default
                         <p>Notre service d'audit de site se concentre sur l'éco-responsabilité numérique. Nous passons au crible chaque élément pour identifier les opportunités d'amélioration. De l'efficacité énergétique à la réduction de l'empreinte carbone, nous vous aidons à prendre des mesures concrètes.</p>
                         <img src="../assets/images/Services/nina-carducci-mobile.webp" alt="mobile-version-nina-carducci-site-internet">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
                 </div>
                 <div class="services-component">
@@ -144,7 +144,7 @@ layout: default
                         <p>This is your moment to shine. Tell us everything, so we can really get to know you and what your business is about. During this time, we’ll also reveal more about our design approach.</p>
                         <img src="../assets/images/Services/labtop-website-portfolio-sophie-buel.webp" alt="laptop-version-sophie-buel-site-internet">
                     </div>
-                    <span class="services-componement-button"><a href="#">{{ "en savoir plus" | upcase }}</a></span>
+                    <span class="services-componement-button"><a href="{% link services.markdown %}">{{ "en savoir plus" | upcase }}</a></span>
                     <span class="services-componement-price">{{ "selon projet" | upcase }}</span>
                 </div>
             </div>
@@ -155,19 +155,19 @@ layout: default
     </section>
     <section class="travailler-avec-nous">
         <div class="wrapper">
-            <h2 class="bigger-title">{{"pourquoi travailler avec nous:" | lowcase }}</h2>
+            <h2 class="bigger-title">{{"pourquoi travailler avec nous:" | downcase }}</h2>
             <div class="travailler-table">
-                <div class="travailler-box-container padding-right border-right-top padding-bottom">
+                <div class="travailler-box-container padding-right border-right-top terracota-border padding-bottom">
                     <div class="travailler-box">
-                        <h3>un hébergement éco-reponsable</h3>
+                        <h3>un hébergement éco-responsable</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container border-right-top padding-right padding-left padding-bottom">
+                <div class="travailler-box-container border-right-top terracota-border padding-right padding-left padding-bottom">
                     <div class="travailler-box end">
                         <h3>un devis personnaliser</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container border-right-top padding-right padding-left padding-bottom">
+                <div class="travailler-box-container border-right-top terracota-border padding-right padding-left padding-bottom">
                     <div class="travailler-box">
                         <h3>un site internet sur-mesure</h3>
                     </div>
@@ -177,22 +177,22 @@ layout: default
                         <h3>des developpeurs compétents</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container border-right-bottom padding-right border-top padding-top">
+                <div class="travailler-box-container border-right-bottom terracota-border padding-right border-top padding-top">
                     <div class="travailler-box">
                         <h3>un site internet ecoIndex A ou B</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container border-right-bottom padding-right padding-left border-top padding-top">
+                <div class="travailler-box-container border-right-bottom terracota-border padding-right padding-left border-top padding-top">
                     <div class="travailler-box end">
                         <h3>vous pouvez mettre à jour votre site facilement</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container border-right-bottom padding-right padding-left border-top padding-top">
+                <div class="travailler-box-container border-right-bottom terracota-border padding-right padding-left border-top padding-top">
                     <div class="travailler-box">
                         <h3>un site internet accessible</h3>
                     </div>
                 </div>
-                <div class="travailler-box-container padding-left border-top padding-top">
+                <div class="travailler-box-container padding-left border-top terracota-border padding-top">
                     <div class="travailler-box end">
                         <h3>un site internet performant et durable</h3>
                     </div>
@@ -209,7 +209,7 @@ layout: default
                 <div class="form">
                     <h2 class="bigger-title">{{"contact" | upcase }}</h2>
                     <h3>{{"Construisez Votre Avenir en Ligne," | upcase }}<br>{{"tout en" | upcase }}<span class="text-highlighted wallnut-highlight">{{" Respectant la Planète."| upcase }}</span></h3>
-                    <h4>{{"créeons un site internet eco-responsable ensemble" | lowcase }}</h4>
+                    <h4>{{"créeons un site internet eco-responsable ensemble" | downcase }}</h4>
                     <form action="https://formspree.io/f/mwkdrggg" method="POST">
                         <div class="form-field-wrapper">
                             <label for="fname">Prénom</label>
@@ -251,318 +251,5 @@ layout: default
             </div>
         </div>
     </section>
-<!-- <section class="ecology">
-    <h2>{{"ce site émet par page vue" | upcase }}</h2>
-    <div class="number-container">
-        <div class="number-column">
-            <span class="letter">A</span>
-            <img decoding="async" loading="lazy" width="70" height="100" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua-2.webp" alt="paint-brush-stroke-aqua-number1">
-            <span class="label">ecoIndex</span>
-            <img decoding="async" loading="lazy" width="40" height="40" src="../assets/Icons/circle-info-solid.webp" alt="index-icon-in-a-circle-black">
-        </div>
-        <div class="number-column">
-            <span class="number">1.99cl</span>
-            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua.webp" alt="paint-brush-stroke-aqua-number2">
-            <span class="label">H<sub>2</sub>0</span>
-            <img decoding="async" loading="lazy" width="40" height="50" src="../assets/Icons/droplets-solid.webp" alt="droplets-icon-black">
-        </div>
-        <div class="number-column">
-            <span class="number">1.33g</span>
-            <img decoding="async" loading="lazy" width="70" height="90" style="height: 90px; top: -25px;" class="paint-brush-aqua" src="../assets/Illustrations/paint-brush-aqua.webp" alt="paint-brush-stroke-aqua-number3">
-            <span class="label">CO<sup>2</sup></span>
-            <img decoding="async" loading="lazy" width="40" height="28" src="../assets/Icons/cloud-solid.webp" alt="cloud-icon-black">
-        </div>
-    </div>
-</section> -->
-<!-- <section class="services" id="services">
-    <h2>{{"services" | upcase }}</h2>
-    <div class="services-container">
-        <ul>
-            <li>
-                <div class="services-title" style="color: #B76154; background-color: #F9F1E8;">
-                    <h3 id="title-site-vitrine">{{"site vitrine" | upcase }}</h3>
-                </div>
-                <div class="services-content" id="site-vitrine">
-                    <div class="service-description">
-                        <h3>{{"site vitrine" | upcase }}</h3>
-                        <span>{{"à partir de 1500€" | upcase }}</span>
-                        <p>
-                            Envie d’un site qui reflète votre commerce ou vos services ? La création d’un site vitrine est parfaite pour vous. Entièrement sur-mesure ou en partant d’un template qui vous plaît, je personnalise votre site en cohérence avec votre univers.<br>
-                            Un site vitrine vous permet d'avoir une présence sur Internet, ce qui est devenu essentiel dans le monde numérique d'aujourd'hui. Il offre la possibilité d'être trouvé en ligne par des clients potentiels, ce qui peut augmenter votre visibilité et élargir votre audience. Un site web bien conçu renforce la crédibilité de votre entreprise et donne une image plus professionnelle.
-                        </p>
-                        <a href="#contact" class="inquire-button">Demander un devis</a>
-                    </div>
-                    <div class="includes-list">
-                        <h4>{{"inclut" | upcase }}</h4>
-                        <ul>
-                            <li>{{"4 pages & pages légal" | upcase }}</li>
-                            <li>{{"Création du design" | upcase }}</li>
-                            <li>{{"mise en place hébérgment" | upcase }}</li>
-                            <li>{{"Mise en ligne du contenu" | upcase }}</li>
-                            <li>{{"Optimisation SEO" | upcase }}</li>
-                            <li>{{"Responsive" | upcase }}</li>
-                            <li>{{"Contenu facilement modifiable" | upcase }}</li>
-                            <li>{{"Gogle analytics" | upcase }}</li>
-                            <li>{{"option blog" | upcase }}</li>
-                            <li>{{"1 mois d'accompagnement" | upcase }}</li>
-                        </ul>
-                    </div>
-                    <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/techsome-mobile-website-on-iphone.webp" alt="example-site-vitrine-rene">
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="services-title" style="color: #B76154; background-color: #ECE6DD;">
-                    <h3 id="title-site-ecommerce">{{"site e-commerce" | upcase }}</h3>
-                </div>
-                <div class="services-content" style="display: none;" id="site-ecommerce">
-                    <div class="service-description">
-                        <h3>{{"site e-commerce" | upcase }}</h3>
-                        <span>{{"à partir de 2500€" | upcase }}</span>
-                        <p>
-                            Vous avez une vision unique pour votre entreprise, et un site e-commerce sur mesure peut vous aider à la concrétiser. Imaginez une plateforme en ligne qui reflète l'essence de votre marque, mettant en avant vos produits de manière attrayante et intuitive.<br>
-                            Avec une conception pensée pour l'expérience utilisateur, vos clients pourront naviguer en toute simplicité, découvrir vos offres et finaliser leurs achats en toute confiance. De plus, une solution e-commerce personnalisée offre la flexibilité nécessaire pour évoluer avec votre entreprise, vous permettant d'ajouter de nouveaux produits, de gérer les commandes et d'optimiser votre catalogue à tout moment.
-                        </p>
-                        <a href="#contact" class="inquire-button">Demander un devis</a>
-                    </div>
-                    <div class="includes-list">
-                        <h4>{{"inclut" | upcase }}</h4>
-                        <ul>
-                            <li>{{"tout du site-vitrine +" | upcase }}</li>
-                            <li>{{"page produit" | upcase }}</li>
-                            <li>{{"page boutique" | upcase }}</li>
-                            <li>{{"30 premiers produits en ligne" | upcase }}</li>
-                            <li>{{"Mise en place paiement" | upcase }}</li>
-                            <li>{{"Mise en place livraison" | upcase }}</li>
-                            <li>{{"Pipeline d'achat" | upcase }}</li>
-                        </ul>
-                    </div>
-                    <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/la-fleur-nue-ipad-website.webp" alt="example-site-e-commerce-rene">
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="services-title" style="color: #fdfdfd; background-color: #D5B8A7;">
-                    <h3 id="title-web-application" >{{"site web / Application" | upcase }}</h3>
-                </div>
-                <div class="services-content" style="display: none;" id="site-web-application">
-                    <div class="service-description">
-                        <h3>{{"Application Web" | upcase }}</h3>
-                        <span>{{"devis sur mesure" | upcase }}</span>
-                        <p>
-                            Vous cherchez à donner vie à vos idées en ligne ?<br>
-                            Je transforme vos concepts en une expérience utilisateur captivante. Grâce à une expertise approfondie en HTML, CSS et JavaScript, je conçois des interfaces utilisateur impeccables et réactives qui fonctionnent sur tous les appareils. Des animations fluides aux transitions intuitives, chaque détail est soigneusement façonné pour offrir une expérience web exceptionnelle.<br>
-                            Je comprend l'importance de l'accessibilité et de la compatibilité entre navigateurs, assurant ainsi que votre site fonctionne de manière optimale pour tous vos visiteurs.
-                        </p>
-                        <a href="#contact" class="inquire-button">Demander un devis</a>
-                    </div>
-                    <div class="includes-list">
-                        <h4>{{"compétences" | upcase }}</h4>
-                        <ul>
-                            <li>{{"development-web front-end" | upcase }}</li>
-                            <li>{{"web-design" | upcase }}</li>
-                            <li>{{"Html & Css" | upcase }}</li>
-                            <li>{{"Vanilla JS" | upcase }}</li>
-                            <li>{{"React" | upcase }}</li>
-                            <li>{{"Wordpress" | upcase }}</li>
-                            <li>{{"Stack MERN" | upcase }}</li>
-                        </ul>
-                    </div>
-                    <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Kasa-web-application-labtop.webp" alt="example-application-web-rene">
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="services-title" style="color: #F9F1E8; background-color: #B76154;">
-                    <h3 id="title-identite-visuelle">{{"identité visuelle" | upcase }}</h3>
-                </div>
-                <div class="services-content" style="display: none;" id="identite-visuelle">
-                    <div class="service-description">
-                        <h3>{{"Identité visuelle" | upcase }}</h3>
-                        <span>{{"à partir 500€" | upcase }}</span>
-                        <p>
-                            This is your moment to shine. Tell us everything, so we can really get to know you and what your business is about. During this time, we’ll also reveal more about our design approach. If the stars align, we’ll send you a project timeline and brand questionnaire, so we can create your individual identity that reflects you and the customers you want to attract.From there, we’ll capture every single aspect of your “what” and “why” to deliver an in-depth brand strategy that vibes with your business goals and target audience, along with a visual moodboard that strategically positions your brand to stand out versus blend in.
-                        </p>
-                        <a href="#contact" class="inquire-button">Demander un devis</a>
-                    </div>
-                    <div class="includes-list">
-                        <h4>{{"inclut" | upcase }}</h4>
-                        <ul>
-                            <li>{{"LOGO Principales" | upcase }}</li>
-                            <li>{{"Logo secondaires" | upcase }}</li>
-                            <li>{{"couleurs" | upcase }}</li>
-                            <li>{{"typography" | upcase }}</li>
-                            <li>{{"élements graphique" | upcase }}</li>
-                            <li>{{"cartes de visite" | upcase }}</li>
-                        </ul>
-                    </div>
-                    <div class="service-img">
-                        <img decoding="async" loading="lazy" width="287" height="600" src="../assets/images/Carte-de-visite-portfolio.webp" alt="carte-de-visite-rene-agency">
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="renaitre">
-    <div class="renaitre-container">
-        <div class="renaitre-content">
-            <h2>{{"envie de faire re(naitre) votre business ?" | upcase }}</h2>
-            <a href="#contact" class="inquire-button2">Demander un devis</a>
-            <div>
-                <h2>{{"plus" | upcase }}</h2>
-                <div class="animated-titles-list2">
-                    <span>{{"rapide" | upcase }}</span>
-                    <span>{{"accessible" | upcase }}</span>
-                    <span>{{"performant" | upcase }}</span>
-                    <span>{{"éco-responsable" | upcase }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="flower-images">
-            <img decoding="async" loading="lazy" width="224" height="320" id="flower1" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number1">
-            <img decoding="async" loading="lazy" width="168" height="240" id="flower2" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number2">
-            <img decoding="async" loading="lazy" width="168" height="240" id="flower3" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number3">
-            <img decoding="async" loading="lazy" width="112" height="160" id="flower4" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number4">
-            <img decoding="async" loading="lazy" width="280" height="400" id="flower5" src="../assets/Illustrations/Flower-3-aqua.webp" alt="flower-illustration-aqua-number5">
-        </div>
-    </div>
-</section> -->
-<!-- <section class="a-propos" id="a-propos">
-    <h2>{{"A propos" | upcase }}</h2>
-    <div class="a-propos-container">
-        <img decoding="async" loading="lazy" src="../assets/images/Photo-roxanne-b&w.png" alt="Roxanne Lottier en noir et blanc">
-        <div class="a-propos-content">
-            <h3>{{"Bonjour, moi c’est Roxanne" | upcase }}</h3>
-            <p>
-                Après plusieurs années à travailler en tant que Chef de produit/Merchandiseur dans le prêt-à-porter, je me suis reconvertie dans le web. Ma passion et mes valeurs m'ont poussée à me spécialiser dans la Green Tech, une façon de faire ma part pour aider notre chère planète. Formée d’abord en marketing du luxe, je suis maintenant diplômée en développement web. Simplicité, beauté et efficacité sont mes leitmotivs.
-            </p>
-        </div>
-    </div>
-</section> -->
-<!-- <section class="portfolio">
-<h2>{{"portfolio" | upcase }}</h2>
-<div class="portfolio-works">
-<ul>
-    <li class="works">
-        <a href="{% link kasa-project.markdown %}">
-            <figure>
-                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/Kasa/portfolio-kasa.webp" alt="Kasa-website-web-application-react">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"application-web" | upcase }}</h3>
-                        <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
-                        <h3>{{"React" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-    <li class="works">
-        <a href="{% link Sophie-Buel-project.markdown %}">
-            <figure>
-                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/porfolio-sophie-buel.webp" alt="Sophie-Buel-website-site-vitrine-web-development">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"site vitrine" | upcase }}</h3>
-                        <h3>{{"DEVELOPPEMENT front-end" | upcase }}</h3>
-                        <h3>{{"vanilla JS" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-    <li class="works">
-        <a href="{% link Booki-project.markdown %}">
-            <figure>
-                <img src="../assets/images/Booki/Portfolio-Booki.webp" alt="Booki-website-integration">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"application web" | upcase }}</h3>
-                        <h3>{{"integration web" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-    <li class="works">
-        <a href="{% link La-Fleur-Nue-project.markdown %}">
-            <figure>
-                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-la-fleur-nue.webp" alt="La-Fleur-Nue-website-site-e-commerce">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"site-ecommerce" | upcase }}</h3>
-                        <h3>{{"web-design" | upcase }}</h3>
-                        <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
-                        <h3>{{"Wordpress" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-    <li class="works">
-        <a href="{% link Nina-Carducci-project.markdown %}">
-            <figure>
-                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-nina-carducci.webp" alt="Nina-Carducci-website-performance-seo">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"site-vitrine" | upcase }}</h3>
-                        <h3>{{"SEO" | upcase }}</h3>
-                        <h3>{{"ACCESSIBILITé" | upcase }}</h3>
-                        <h3>{{"Performances" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-    <li class="works">
-        <a href="{% link Techsome-project.markdown %}">
-            <figure>
-                <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-techsome.webp" alt="Techsome-website-site-vitirne">
-                <figcaption class="hover-card">
-                    <div class="hover-card-title">
-                        <h3>{{"site-vitrine" | upcase }}</h3>
-                        <h3>{{"web-design" | upcase }}</h3>
-                        <h3>{{"DEVELOPPEMENT web" | upcase }}</h3>
-                        <h3>{{"identité visuelle" | upcase }}</h3>
-                    </div>
-                    <div class="voir-plus">
-                        <span>découvrir le projet</span>
-                        <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                    </div>
-                </figcaption>
-            </figure>
-        </a>
-    </li>
-</ul>
-</div>
-<div class="button-wrapper" id="portfolio-button">
-<a class="button1" href="{% link portfolio.markdown %}">{{"voir tous les projets" | upcase }}</a>
-<div class="background-animation"></div>
-</div>
-</section> -->
 </div>
 

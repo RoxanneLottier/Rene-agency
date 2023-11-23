@@ -1,0 +1,51 @@
+---
+layout: default2
+---
+<div class="post">
+    <div class="wrapper">
+        <a href="{% link blog.markdown %}">
+            <svg
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+              fill="currentColor"
+            />
+          </svg></a>
+          <div class="post-header">
+            <div class="post-header-img">
+                <img src="{{ '/../assets/images/Blog/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ page.img }}" alt="{{ page.title }}">
+            </div>
+            <div class="post-header-content">
+                <p>{{ page.date-post }}</p>
+                <p>author: {{ page.author }}</p>
+                <p>category: {{ page.categories }}</p>
+                <hr>
+                <p>{{ page.tags }}</p>
+            </div>
+          </div>
+          <hr>
+          <article class="post-content">
+            {{ content }}
+          </article>
+          <hr><br><br><br><br>
+          <div class="blog-a-la-une">
+            <h2>{{"d'autres article intéressants" | upcase }}</h2>
+            <ul class="article-container">
+                {% for post in site.posts limit:3 %}
+                    <a href="{{ post.url }}">
+                        <li class="article-component">
+                            <img src="{{ '/../assets/images/Blog/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ post.img }}" alt="{{ post.title }}">
+                            <span>{{ post.highlight-tag }}</span>
+                            <h3>{{ post.title | upcase }}</h3>
+                        </li>
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

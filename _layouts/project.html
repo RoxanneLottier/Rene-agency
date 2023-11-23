@@ -1,50 +1,66 @@
 ---
-layout: default
+layout: default2
 ---
 
 <section class="presentation">
-    <div class="presentation-header">
-        <h1>{{page.title | upcase}}</h1>
-        <div class="list1">
-            <span>{{"étendue des travaux:" | upcase }}</span>
-            <ul>
-                <li>{{page.tag1}}</li>
-                <li>{{page.tag2}}</li>
-                <li>{{page.tag3}}</li>
-                <li>{{page.tag4}}</li>
-            </ul>
+    <div class="wrapper">
+        <a href="{% link portfolio.markdown %}">
+            <svg
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+              fill="currentColor"
+            />
+          </svg></a>
+        <div class="presentation-container">
+            <div class="presentation-header">
+                <h1>{{page.title | upcase}}</h1>
+                <div class="list1">
+                    <span>{{"étendue des travaux:" | upcase }}</span>
+                    <ul>
+                        <li>{{page.tag1}}</li>
+                        <li>{{page.tag2}}</li>
+                        <li>{{page.tag3}}</li>
+                        <li>{{page.tag4}}</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="list1">
+                    <span>{{"Tech-stack:" | upcase }}</span>
+                    <ul>
+                        <li>{{page.techstack1}}</li>
+                        <li>{{page.techstack2}}</li>
+                        <li>{{page.techstack3}}</li>
+                        <li>{{page.techstack4}}</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="list2">
+                    <span>{{"Fonctionnalités developpés:" | upcase }}</span>
+                    <ul>
+                        <li>{{page.fonct1}}</li>
+                        <li>{{page.fonct2}}</li>
+                        <li>{{page.fonct3}}</li>
+                        <li>{{page.fonct4}}</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="presentation-description">
+                <h2>{{"context:" | upcase }}</h2>
+                <p>{{page.description}}</p>
+                <div >
+                    <a class="inquire-button black-button" href="{{page.project-url}}" target="_blank">{{"visiter le site" | upcase }}</a>
+                </div>
+            </div>
         </div>
-        <hr>
-        <div class="list1">
-            <span>{{"Tech-stack:" | upcase }}</span>
-            <ul>
-                <li>{{page.techstack1}}</li>
-                <li>{{page.techstack2}}</li>
-                <li>{{page.techstack3}}</li>
-                <li>{{page.techstack4}}</li>
-            </ul>
-        </div>
-        <hr>
-        <div class="list2">
-            <span>{{"Fonctionnalités developpés:" | upcase }}</span>
-            <ul>
-                <li>{{page.fonct1}}</li>
-                <li>{{page.fonct2}}</li>
-                <li>{{page.fonct3}}</li>
-                <li>{{page.fonct4}}</li>
-            </ul>
-        </div>
-        <hr>
+        <section class="project-images-wrapper">
+            {{content}}
+        </section>
     </div>
-    <div class="presentation-description">
-        <h2>{{"context:" | upcase }}</h2>
-        <p>{{page.description}}</p>
-        <div class="button-wrapper">
-            <a class="button1" href="{{page.project-url}}" target="_blank">{{"visiter le site" | upcase }}</a>
-            <div class="background-animation"></div>
-        </div>
-    </div>
-</section>
-<section class="project-images-wrapper">
-    {{content}}
 </section>

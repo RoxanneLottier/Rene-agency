@@ -1,131 +1,83 @@
 ---
-layout: default
+layout: default2
 ---
 
-<section class="portfolio" id="portfolio-page">
-    <h1>{{"portfolio" | upcase }}</h1>
-    <a href="https://github.com/RoxanneLottier" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" width="50" height="50" id="github" src="../assets/images/github-logo.webp" alt="github logo"></a>
-    <div class="filter-bar">
-        <ul id="filter">
-            <li class="active" data-filter="tous">{{"tous" | upcase }}</li>
-            <li data-filter="web-design">{{"web design" | upcase }}</li>
-            <li data-filter="web-development">{{"web development" | upcase }}</li>
-            <li data-filter="identite-visuelle">{{"identite visuelle" | upcase }}</li>
-            <li data-filter="seo">{{"seo" | upcase }}</li>
-        </ul>
-    </div>
-    <div class="portfolio-works">
-        <ul>
-            <li class="works" data-category="web-development">
-                <a href="{% link kasa-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/Kasa/portfolio-kasa.webp" alt="Kasa-website-web-application-react"/>
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"application-web" | upcase }}</span><br>
-                                <span>{{"DEVELOPPEMENT front-end" | upcase }}</span><br>
-                                <span>{{"React" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid"/>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="works" data-category="web-development">
-                <a href="{% link Sophie-Buel-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/porfolio-sophie-buel.webp"alt="Sophie-Buel-website-site-vitrine-web-development">
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"site vitrine" | upcase }}</span><br>
-                                <span>{{"DEVELOPPEMENT front-end" | upcase }}</span><br>
-                                <span>{{"vanilla JS" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="works" data-category="web-development">
-                <a href="{% link Booki-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/Booki/Portfolio-Booki.webp" alt="Booki-website-integration">
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"application web" | upcase }}</span><br>
-                                <span>{{"integration web" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="works" data-category="web-design">
-                <a href="{% link La-Fleur-Nue-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-la-fleur-nue.webp" alt="La-Fleur-Nue-website-site-e-commerce">
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"site-ecommerce" | upcase }}</span><br>
-                                <span>{{"web-design" | upcase }}</span><br>
-                                <span>{{"DEVELOPPEMENT web" | upcase }}</span><br>
-                                <span>{{"Wordpress" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="works" data-category="seo">
-                <a href="{% link Nina-Carducci-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-nina-carducci.webp" alt="Nina-Carducci-website-performance-seo">
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"site-vitrine" | upcase }}</span><br>
-                                <span>{{"SEO" | upcase }}</span><br>
-                                <span>{{"ACCESSIBILITé" | upcase }}</span><br>
-                                <span>{{"Performances" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li class="works" data-category="identite-visuelle">
-                <a href="{% link Techsome-project.markdown %}">
-                    <figure>
-                        <img decoding="async" loading="lazy" width="380" height="500" src="../assets/images/portfolio-techsome.webp" alt="Techsome-website-site-vitirne">
-                        <figcaption class="hover-card">
-                            <div class="hover-card-title">
-                                <span>{{"site-vitrine" | upcase }}</span><br>
-                                <span>{{"web-design" | upcase }}</span><br>
-                                <span>{{"DEVELOPPEMENT web" | upcase }}</span><br>
-                                <span>{{"identité visuelle" | upcase }}</span>
-                            </div>
-                            <div class="voir-plus">
-                                <span>découvrir le projet</span>
-                                <img decoding="async" loading="lazy" width="20" height="20" src="../assets/Icons/arrow-right-solid.webp" alt="arrow-right-solid">
-                            </div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li>
-        </ul>
+<section class="portfolio">
+    <div class="wrapper">
+        <h1 class="bigger-title">{{"portfolio" | upcase }}</h1>
+        <a href="https://github.com/RoxanneLottier" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" width="50" height="50" id="github" src="../assets/images/Portfolio/github-logo.webp" alt="github logo"></a>
+        <div class="filter-bar">
+            <ul id="filter">
+                <li class="active" data-filter="tous">{{"tous" | upcase }}</li>
+                <li data-filter="web-design">{{"web design" | upcase }}</li>
+                <li data-filter="web-development">{{"web development" | upcase }}</li>
+                <li data-filter="identite-visuelle">{{"identite visuelle" | upcase }}</li>
+                <li data-filter="seo">{{"seo" | upcase }}</li>
+            </ul>
+        </div>
+        <div class="portfolio-works">
+            <ul>
+                <li class="works" data-category="web-development">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/Kasa/portfolio-kasa.webp" alt="Kasa-website-web-application-react"/>
+                            <h2>{{"KASA" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "application-web, DEVELOPPEMENT front-end, React" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link kasa-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+                <li class="works" data-category="web-development">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/Sophie-Buel/Portfolio-Sophie-Buel.webp" alt="Sophie-Buel-website-site-vitrine-web-development"/>
+                            <h2>{{"sophie buel" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "site vitrine, DEVELOPPEMENT front-end, vanilla JS" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link Sophie-Buel-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+                <li class="works" data-category="web-development">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/Booki/Portfolio-Booki.webp" alt="Booki-website-integration"/>
+                            <h2>{{"booki" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "application web, integration web" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link Booki-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+                <li class="works" data-category="web-design">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/La-Fleur-Nue/Portfolio-La-Fleur-Nue-1.webp" alt="La-Fleur-Nue-website-site-e-commerce"/>
+                            <h2>{{"la fleur nue" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "site-ecommerce, web-design, DEVELOPPEMENT web, Wordpress" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link La-Fleur-Nue-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+                <li class="works" data-category="seo">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/Nina-Carducci/Portfolio-Nina-Carducci-1.webp" alt="Nina-Carducci-website-performance-seo"/>
+                            <h2>{{"nina carducci" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "site-vitrine, seo, ACCESSIBILITé, Performances" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link Nina-Carducci-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+                <li class="works" data-category="identite-visuelle">
+                    <div class="portfolio-component">
+                        <div class="portfolio-component-content">
+                            <img decoding="async" loading="lazy" src="../assets/images/Techsome/Portfolio-Techsome-1.webp" alt="Techsome-website-site-vitirne"/>
+                            <h2>{{"techsome" | upcase }}</h2>
+                        </div>
+                        <span class="portfolio-component-tags">{{ "site-vitrine, web-design, DEVELOPPEMENT web, identité visuelle" | upcase }}</span>
+                        <span class="portfolio-componement-button"><a href="{% link Techsome-project.markdown %}">{{ "voir plus" | upcase }}</a></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>

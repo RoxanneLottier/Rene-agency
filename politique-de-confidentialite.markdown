@@ -34,4 +34,4 @@ Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autr
 
 Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à roxanne@rene-agency.com.
 
-Dernière mise à jour : 27/09/2023
+Dernière mise à jour : 23/11/2023

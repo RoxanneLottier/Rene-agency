@@ -26,4 +26,4 @@ Nous nous réservons le droit de modifier ces conditions d'utilisation à tout m
 
 Si vous avez des questions concernant ces conditions d'utilisation, veuillez nous contacter à roxanne@rene-agency.com.
 
-Dernière mise à jour : 27/09/2023
+Dernière mise à jour : 23/11/2023

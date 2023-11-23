@@ -1,17 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-09T12:00:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Re(né) agency</title><subtitle>Agence web spécialisée dans la création de sites éco-responsables. Je réalise des sites vitrine, e-commerce ou des applications web conscients de leur empreinte carbone.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/09/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-09-11T13:17:39+02:00</published><updated>2023-09-11T13:17:39+02:00</updated><id>http://localhost:4000/jekyll/update/2023/09/11/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/09/11/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rene-agency.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rene-agency.com/" rel="alternate" type="text/html" /><updated>2023-11-23T11:48:41+01:00</updated><id>https://rene-agency.com/feed.xml</id><title type="html">Re(né) agency</title><subtitle>Agence web spécialisée dans la création de sites éco-responsables. Je réalise des sites vitrine, e-commerce ou des applications web conscients de leur empreinte carbone.</subtitle><entry><title type="html">Conseils pour rédiger les MEILLEURS ARTICLES DE BLOG</title><link href="https://rene-agency.com/blog/post/seo/conseil-article-seo" rel="alternate" type="text/html" title="Conseils pour rédiger les MEILLEURS ARTICLES DE BLOG" /><published>2023-11-20T00:00:00+01:00</published><updated>2023-11-20T00:00:00+01:00</updated><id>https://rene-agency.com/blog/post/seo/conseil-article-seo</id><content type="html" xml:base="https://rene-agency.com/blog/post/seo/conseil-article-seo"><![CDATA[<h1 id="rédaction-seo--conseils-pour-rédiger-les-meilleurs-articles-de-blog">Rédaction SEO : Conseils pour rédiger les MEILLEURS ARTICLES DE BLOG</h1>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>Ce post offre des conseils pour rédiger des articles de blog à la fois optimisé pour le référencement et faciles à lire. La rédaction d’articles de blog clairs et compréhensibles attire davantage de visiteurs et les incite à rester sur votre site.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<h2 id="quest-ce-que-la-rédaction-seo-">Qu’est-ce que la Rédaction SEO ?</h2>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>La rédaction SEO est le processus d’écriture de contenu visant à se classer en première page des moteurs de recherche tels que Google. Rédiger des articles favorables au référencement implique une combinaison de facteurs, notamment la recherche de mots clés, un contenu de haute qualité, un formatage adéquat et une interaction forte avec les utilisateurs. Voici quelques étapes que vous pouvez suivre :</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<ol>
+  <li>
+    <h3 id="recherche-de-mots-clés-">Recherche de mots clés :</h3>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+    <p>Identifiez des mots clés et des expressions pertinents que les utilisateurs pourraient rechercher en relation avec votre contenu. (Un mot clé ne doit pas nécessairement être un seul mot, mais une phrase avec plusieurs mots). Posez-vous la question : que rechercher les gens ? Pour aquerir du trafic depuis Google, vous devez écrire sur des sujets que les gens recherchent.<br /><br /></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+    <p>Pour rechercher des mots clés pertinents par rapport à votre contenu, vous pouvez utiliser des outils tels que :<br /><br /></p>
+    <ul>
+      <li>Google Keyword Planner</li>
+      <li>Ahrefs</li>
+      <li>Moz Keyword Explorer</li>
+      <li>Keyword Magic Tool.<br /><br /></li>
+    </ul>
+
+    <p><strong>Comment utiliser cet outil ?</strong><br /><br />
+Entrez un mot clé générique lié à votre contenu. Par exemple, si vous gérez un blog sur la santé et le fitness, ce mot clé pourrait être “exercice”. Regardez des métriques telles que la difficulté ou le volume de recherche.<br /><br /></p>
+    <ul>
+      <li>Le volume de recherche est le nombre moyen de fois où un mot clé est recherché chaque mois.</li>
+      <li>La difficulté des mots clés vous indique à quel point il serait difficile de se classer organiquement parmi les 10 premiers résultats des moteurs de recherche.<br /><br /></li>
+    </ul>
+
+    <p>Essayez de vous concentrer sur des mots clés avec une faible difficulté mais avec un bon volume de recherche. L’essentiel est de trouver un mot clé qui ne soit pas trop générique et qui soit très spécifique à votre entreprise ou à votre contenu.</p>
+  </li>
+  <li>
+    <h3 id="contenu-de-qualité-">Contenu de qualité :</h3>
+
+    <ul>
+      <li>Ayez une structure claire : Une introduction (dans laquelle vous présentez votre sujet), Un corps (dans lequel le message principal est écrit), Une conclusion (dans laquelle vous résumez les idées principales ou tirez une conclusion).</li>
+      <li>Au moins 300 mots. Vous avez plus de chances de vous classer dans Google si vous écrivez des articles de blog longs et de haute qualité de 1000 mots ou plus.</li>
+      <li>Utilisez des sous-titres (H2 à H6). Les sous-titres décomposent un article long et guident les lecteurs sur le contenu de chaque section.</li>
+      <li>Ajoutez des éléments visuels. Les images personnalisées, les infographies, les vidéos et les GIFs aident à maintenir l’engagement de vos lecteurs.</li>
+      <li>Utilisez des phrases et des paragraphes courts. Cela vous aide à éviter les “murs de texte” et permet une meilleur compréhension.</li>
+      <li>Utilisez des listes à puces et des listes numérotées. Cela vous aide à fournir des informations de manière concise.</li>
+      <li>Utilisez des mots simples. Votre contenu doit être facile à lire avec des paragraphes courts et des mots simples. Évitez un vocabulaire complexe pour que tout le monde puisse comprendre votre écriture.</li>
+      <li>Suivez les directives E-E-A-T(F) de Google : démontrez des aspects d’expérience, d’expertise, d’autorité et de fiabilité.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="misez-sur-un-contenu-axé-sur-les-personnes-">Misez sur un contenu axé sur les personnes :</h3>
+
+    <p>Un contenu axé sur les personnes signifie un contenu créé principalement pour les gens, et non pour manipuler les classements des moteurs de recherche. Comment pouvez-vous évaluer si vous créez un contenu axé sur les personnes ? Répondre oui aux questions ci-dessous signifie que vous êtes probablement sur la bonne voie avec une approche axée sur les personnes :<br /><br /></p>
+    <ul>
+      <li>Avez-vous un public existant ou prévu pour votre entreprise ou votre site qui trouverait le contenu utile s’ils venaient directement à vous ?</li>
+      <li>Votre contenu démontre-t-il clairement une expertise de première main et une profondeur de connaissance (par exemple, une expertise provenant de l’utilisation réelle d’un produit ou d’un service, ou de la visite d’un endroit) ?</li>
+      <li>Votre site a-t-il un objectif ou un centre d’intérêt principal ?</li>
+      <li>Après avoir lu votre contenu, quelqu’un partira-t-il en ayant l’impression d’avoir assez appris sur un sujet pour aider à atteindre son objectif ?</li>
+      <li>Quelqu’un qui lit votre contenu partira-t-il en ayant l’impression d’avoir vécu une expérience satisfaisante ?</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="utilisation-de-mots-clés-">Utilisation de mots clés :</h3>
+
+    <p>Utilisez naturellement votre mot clé cible tout au long de l’article. Utiliser également tout un champ lexical autour de votre mot clé. Évitez la surcharge de mots clés, ce qui peut nuire à votre référencement.<br /><br /></p>
+
+    <p><strong>Rédigez un titre et une méta-description pour les moteurs de recherche :</strong><br /><br /></p>
+
+    <p><strong>Optimisation du titre :</strong></p>
+    <ul>
+      <li>Incluez le mot clé principal dans le titre. Assurez-vous qu’il reflète précisément le contenu de l’article. (environ 60 caractères)</li>
+    </ul>
+
+    <p><strong>Méta-description :</strong></p>
+    <ul>
+      <li>Rédigez une méta-description concise et convaincante qui inclut le mot clé cible. Cette description doit résumer le contenu et encourager les utilisateurs à cliquer. (environ 160 caractères)</li>
+    </ul>
+  </li>
+</ol>
+
+<p>N’oubliez pas, le référencement est un processus continu. Il peut prendre du temps pour voir des résultats, donc la patience et la cohérence sont essentielles. De plus, concentrez-vous toujours sur la valeur ajouté à votre public. Cela conduira naturellement à un meilleur référencement avec le temps.</p>]]></content><author><name>Roxanne Lottier</name></author><category term="seo" /><category term="seo" /><summary type="html"><![CDATA[Rédaction SEO : Conseils pour rédiger les MEILLEURS ARTICLES DE BLOG]]></summary></entry></feed>

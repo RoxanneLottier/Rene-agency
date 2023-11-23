@@ -1,3 +1,57 @@
 ---
-layout: default
+layout: default2
 ---
+
+<section class="blog">
+    <div class="wrapper">
+        <h1 class="bigger-title">{{"blog" | upcase }}</h1>
+        <div class="blog-header">
+            <div class="blog-header-introduction">
+                <p>ici nous parlons web et éco-responsabilité</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path style="fill:#232326" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
+            </div>
+            <div class="blog-a-la-une">
+                <h2>{{"a la une" | upcase }}</h2>
+                <ul class="article-container">
+                    {% for post in site.posts limit:3 %}
+                        <a href="{{ post.url }}">
+                            <li class="article-component">
+                                <img src="{{ '../assets/images/Blog/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ post.img }}" alt="{{ post.title }}">
+                                <span>{{ post.highlight-tag }}</span>
+                                <h3>{{ post.title | upcase }}</h3>
+                            </li>
+                        </a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="filter-bar">
+            <ul id="filter">
+                <li class="active" data-filter="tous">{{"tous" | upcase }}</li>
+                <li data-filter="eco-responsabilite">{{"éco-responsabilité" | upcase }}</li>
+                <li data-filter="seo">{{"seo" | upcase }}</li>
+                <li data-filter="accessibilite">{{"accessibilité" | upcase }}</li>
+            </ul>
+        </div>
+        <div class="blog-post">
+            <ul>
+                {% for post in site.posts %}
+                    <li class="post" data-category="{{ post.categories }}">
+                        <div class="blog-component">
+                            <div class="blog-component-content">
+                                <img decoding="async" loading="lazy" src="{{ '../assets/images/Blog/' | prepend: site.baseurl | replace: 'http://', 'https://' }}{{ post.img }}" alt="{{ post.title }}"/>
+                                <h2>{{ post.title | upcase }}</h2>
+                            </div>
+                            <div class="blog-component-tags">
+                                {% for tag in post.tags %}
+                                    <span>{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+                            <span class="blog-component-button"><a href="{{ post.url }}">{{ "lire plus" | upcase }}</a></span>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
